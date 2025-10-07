@@ -1,6 +1,5 @@
 {
   "name": "Crusty-IT",
-  "homepage": "https://shellupski.github.io/Crusty-IT",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -24,8 +23,13 @@
     "build": "react-scripts build && copy build\\index.html build\\404.html",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+
+    "build:gh": "PUBLIC_URL=/Crusty-IT react-scripts build",
+    "predeploy": "npm run build:gh",
+    "deploy": "gh-pages -d build",
+
+
+    "build:netlify": "react-scripts build"
   },
   "eslintConfig": {
     "extends": [
