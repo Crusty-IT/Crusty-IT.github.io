@@ -24,10 +24,10 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
 
-    "build:gh": "set PUBLIC_URL=/Crusty-IT&& react-scripts build && cp build/index.html build/404.html",    "predeploy": "npm run build:gh",
+    "predeploy": "npm run build && copy build\\index.html build\\404.html",
     "deploy": "gh-pages -d build",
 
-    "build:netlify": "react-scripts build"
+    "build:netlify": "npm run build"
   },
   "eslintConfig": {
     "extends": [
