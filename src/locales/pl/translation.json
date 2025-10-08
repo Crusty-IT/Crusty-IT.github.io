@@ -11,7 +11,7 @@
     "eyebrow": "Crusty IT • Portfolio",
     "greeting": "Cześć, nazywam się",
     "name": "Tomasz Skorupski",
-    "lead": "Jestem specjalistą IT z szerokim przekrojem doświadczeń: administracja Windows/AD i Linux, sieci oraz bazy danych — sprawnie łączę różne technologie w praktyczne rozwiązania. Pracowałem przy modernizacji infrastruktury i usprawnianiu procesów, dbając o stabilność systemów i komfort użytkowników. Uczciwie: nie mam jeszcze komercyjnego doświadczenia DevOps; intensywnie się tego uczę i rozwijam własny projekt (Git, Docker, podstawowe pipeline’y CI/CD). Moje mocne strony to szybkie odnajdywanie się w nowych narzędziach, komunikacja, dokumentacja i ciągła chęć nauki. Jestem otwarty na zdalne role — nie tylko w obszarze DevOps, ale również w administracji/systemach i pokrewnych. Szukam miejsca, w którym będę mógł wnosić wartość od pierwszego dnia i równolegle rozwijać kompetencje chmurowe i automatyzacyjne.",
+    "lead": "Jestem specjalistą IT z szerokim przekrojem doświadczeń: administracja Windows/AD i Linux, sieci oraz bazy danych - sprawnie łączę różne technologie w praktyczne rozwiązania. Pracowałem przy modernizacji infrastruktury i usprawnianiu procesów, dbając o stabilność systemów i komfort użytkowników. Uczciwie: nie mam jeszcze komercyjnego doświadczenia DevOps; intensywnie się tego uczę i rozwijam własny projekt (Git, Docker, podstawowe pipeline’y CI/CD). Moje mocne strony to szybkie odnajdywanie się w nowych narzędziach, komunikacja, dokumentacja i ciągła chęć nauki. Jestem otwarty na zdalne role - nie tylko w obszarze DevOps, ale również w administracji/systemach i pokrewnych. Szukam miejsca, w którym będę mógł wnosić wartość od pierwszego dnia i równolegle rozwijać kompetencje chmurowe i automatyzacyjne.",
     "ctaPortfolio": "🚀 Zobacz portfolio",
     "ctaCv": "📄 Pobierz CV",
     "ctaContact": "✉️ Kontakt",
@@ -40,13 +40,13 @@
   "about": {
     "title": "O mnie",
     "kicker": "Infrastruktura • Automatyzacja • Development",
-    "p1": "Cześć! Nazywam się <strong>Tomasz Skorupski</strong>. Od 2018 roku pracuję w IT – od helpdesku, przez administrację systemami i sieciami, po rozwój platform i narzędzi. Łączę <strong>Windows Server (AD, GPO)</strong>, <strong>Linux/Bash</strong>, sieci <strong>TCP/IP, DNS, DHCP, VPN</strong> i bazy danych (<strong>MySQL, PostgreSQL, SQL Server</strong>) z programowaniem w <strong>React/JavaScript</strong> oraz narzędziami <strong>DevOps</strong> (<strong>Git, Docker, CI/CD</strong>).",
+    "p1": "Cześć! Nazywam się <strong>Tomasz Skorupski</strong>. Od 2018 roku pracuję w IT - od helpdesku, przez administrację systemami i sieciami, po rozwój platform i narzędzi. Łączę <strong>Windows Server (AD, GPO)</strong>, <strong>Linux/Bash</strong>, sieci <strong>TCP/IP, DNS, DHCP, VPN</strong> i bazy danych (<strong>MySQL, PostgreSQL, SQL Server</strong>) z programowaniem w <strong>React/JavaScript</strong> oraz narzędziami <strong>DevOps</strong> (<strong>Git, Docker, CI/CD</strong>).",
     "p2": "Obecnie jestem po pierwszym od dawna dłuższym urlopie i aktywnie poszukuję pracy zgodnej z moimi umiejętnościami i dotychczasowym doświadczeniem. Moją intencją jest rozwój w kierunku roli <strong>Junior DevOps Engineer / Cloud SysAdmin</strong>. Równolegle tworzę autorską aplikację, rozwijając praktyczne kompetencje w zakresie automatyzacji, konteneryzacji i dobrych praktyk CI/CD.",
     "p3": "Wcześniej odpowiadałem za wsparcie, stabilność środowiska, modernizacje i usprawnienia jako Administrator IT & Developer Platform w Streetcom.",
     "bullets": [
       "Projektuję i usprawniam procesy, automatyzuję powtarzalne zadania.",
       "Dbam o niezawodność, bezpieczeństwo i przejrzystość systemów.",
-      "Komunikuję zrozumiale – łączę potrzeby biznesu z technologią."
+      "Komunikuję zrozumiale - łączę potrzeby biznesu z technologią."
     ],
     "ctaExperience": "Zobacz doświadczenie",
     "ctaContact": "Skontaktuj się",
@@ -148,7 +148,7 @@
   },
   "portfolio": {
     "title": "Portfolio",
-    "subtitleHtml": "Moje publiczne portfolio jest obecnie skromne, ponieważ większość dotychczasowych realizacji powstawała na rzecz pracodawców i pozostaje objęta ograniczeniami w udostępnianiu. Równolegle tworzę serię autorskich projektów demonstracyjnych — wkrótce pojawią się tutaj nowe pozycje. Wszystkie, w tym także mniejsze i eksperymentalne prace, publikuję na <link>GitHubie</link>.",
+    "subtitleHtml": "Moje publiczne portfolio jest obecnie skromne, ponieważ większość dotychczasowych realizacji powstawała na rzecz pracodawców i pozostaje objęta ograniczeniami w udostępnianiu. Równolegle tworzę serię autorskich projektów demonstracyjnych - wkrótce pojawią się tutaj nowe pozycje. Wszystkie, w tym także mniejsze i eksperymentalne prace, publikuję na <link>GitHubie</link>.",
     "actions": {
       "demo": "Zobacz Demo",
       "code": "Kod"
@@ -156,14 +156,14 @@
     "projects": {
       "pwaCookbook": {
         "title": "Mobilna Książka Kucharska (PWA)",
-        "subtitle": "Progresywna Aplikacja Webowa — projekt dyplomowy",
+        "subtitle": "Progresywna Aplikacja Webowa - projekt dyplomowy",
         "description": "Opracowałem progresywną aplikację webową (PWA), która pomaga w planowaniu posiłków na podstawie składników dostępnych w kuchni. Integruje bazę przepisów, instrukcje przygotowania i czasy gotowania dodatków, a wbudowany timer z powiadomieniem dźwiękowym ułatwia kontrolę procesu. Aplikacja została zaprojektowana w podejściu mobile‑first i działa również w trybie offline, pozostając dostępna na każdym urządzeniu z przeglądarką. Dzięki temu realnie skraca czas spędzany na gotowaniu i ułatwia podejmowanie decyzji „co ugotować”. Projekt zrealizowany w oparciu o React z naciskiem na wydajność i wygodę użytkownika. Powstał jako element pracy dyplomowej.",
         "tech": ["React", "Firebase", "PWA"]
       },
       "animalsOnePage": {
         "title": "Interesujące Zwierzęta - One Page",
         "subtitle": "Prosta strona typu One Page (projekt studencki)",
-        "description": "Bardzo prosta, statyczna strona one page przygotowana w trakcie studiów jako realizacja jednego z zadań. Prezentuje wybrane, interesujące gatunki zwierząt w krótkich sekcjach — z podstawowymi informacjami i ciekawostkami. Traktuję ją jako skromny materiał uzupełniający, pokazujący konsekwencję w dokumentowaniu postępów. Mam świadomość, że nie jest to projekt reprezentatywny dla obecnych umiejętności i wkrótce zastąpię go nowszymi, autorskimi realizacjami.",
+        "description": "Bardzo prosta, statyczna strona one page przygotowana w trakcie studiów jako realizacja jednego z zadań. Prezentuje wybrane, interesujące gatunki zwierząt w krótkich sekcjach z podstawowymi informacjami i ciekawostkami. Traktuję ją jako skromny materiał uzupełniający, pokazujący konsekwencję w dokumentowaniu postępów. Mam świadomość, że nie jest to projekt reprezentatywny dla obecnych umiejętności i wkrótce zastąpię go nowszymi, autorskimi realizacjami.",
         "tech": ["HTML", "CSS", "JavaScript"]
       }
     }
@@ -174,7 +174,7 @@
     "jobs": {
       "streetcom": {
         "where": "Streetcom • Administrator Systemów IT & Developer Platform",
-        "date": "02.2024 – 08.2025",
+        "date": "02.2024 - 08.2025",
         "loc": "Warszawa / zdalnie",
         "bullets": [
           "Kompleksowa obsługa IT, administracja systemami i bazami danych, modernizacja i usprawnienia.",
@@ -190,7 +190,7 @@
       },
       "ata": {
         "where": "ATA • Specjalista IT (integracja systemów druku)",
-        "date": "04.2023 – 09.2023",
+        "date": "04.2023 - 09.2023",
         "loc": "Szczecin",
         "bullets": [
           "Wdrażanie i integracja systemów druku podążającego, pełne wsparcie techniczne klientów.",
@@ -205,7 +205,7 @@
       },
       "hisert": {
         "where": "Hisert • Specjalista ds. Wsparcia IT",
-        "date": "01.2022 – 04.2023",
+        "date": "01.2022 - 04.2023",
         "loc": "Szczecin",
         "bullets": [
           "Administracja systemami i siecią, wdrażanie nowych technologii, modernizacja infrastruktury.",
@@ -220,7 +220,7 @@
       },
       "rzgw": {
         "where": "RZGW • Młodszy specjalista ds. IT",
-        "date": "05.2021 – 10.2021",
+        "date": "05.2021 - 10.2021",
         "loc": "Szczecin",
         "bullets": [
           "Konfiguracja i nadzór nad systemami IT oraz administracja infrastrukturą sieciową.",
@@ -234,12 +234,12 @@
       },
       "exorigo": {
         "where": "Exorigo‑Upos • Technik Serwisu IT / Serwis Terenowy",
-        "date": "10.2020 – 05.2021",
+        "date": "10.2020 - 05.2021",
         "loc": "Szczecin (sieci handlowe)",
         "bullets": [
           "Wsparcie IT dla sieci retail: zgłoszenia serwisowe, diagnoza i naprawa sprzętu (POS).",
           "Konfiguracja sieci i urządzeń, inwentaryzacja zasobów IT.",
-          "Serwis urządzeń fiskalnych – skuteczne rozwiązywanie zróżnicowanych problemów w wielu lokalizacjach."
+          "Serwis urządzeń fiskalnych - skuteczne rozwiązywanie zróżnicowanych problemów w wielu lokalizacjach."
         ],
         "tags": {
           "pos": "POS/Serwis",
@@ -248,7 +248,7 @@
       },
       "wasko": {
         "where": "WASKO S.A. • Technik mobilny",
-        "date": "06.2020 – 09.2020",
+        "date": "06.2020 - 09.2020",
         "loc": "Szczecin",
         "bullets": [
           "Serwis i konfiguracja urządzeń drukujących oraz wsparcie sprzętu użytkowników w oddziałach banków.",
@@ -258,7 +258,7 @@
       },
       "eot": {
         "where": "EOT • Helpdesk (zdalny)",
-        "date": "09.2018 – 03.2019",
+        "date": "09.2018 - 03.2019",
         "loc": "Szczecin",
         "bullets": [
           "Zdalne wsparcie IT dla szpitali i zespołów ratownictwa medycznego.",

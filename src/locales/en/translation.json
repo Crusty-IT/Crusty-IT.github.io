@@ -11,7 +11,7 @@
     "eyebrow": "Crusty IT • Portfolio",
     "greeting": "Hi, my name is",
     "name": "Tomasz Skorupski",
-    "lead": "I am an IT specialist with broad experience across Windows/AD and Linux administration, networking and databases — I combine technologies into practical solutions. I worked on infrastructure modernization and process improvements, focusing on system stability and user comfort. Honestly, I don’t yet have commercial DevOps experience; I’m actively learning and building my own project (Git, Docker, basic CI/CD pipelines). My strengths are quickly picking up new tools, communication, documentation, and a constant drive to learn. I’m open to remote roles — not only DevOps but also administration/systems and related areas. I’m looking for a place where I can bring value from day one while growing my cloud and automation skills.",
+    "lead": "I am an IT specialist with broad experience across Windows/AD and Linux administration, networking and databases - I combine technologies into practical solutions. I worked on infrastructure modernization and process improvements, focusing on system stability and user comfort. Honestly, I don’t yet have commercial DevOps experience; I’m actively learning and building my own project (Git, Docker, basic CI/CD pipelines). My strengths are quickly picking up new tools, communication, documentation, and a constant drive to learn. I’m open to remote roles - not only DevOps but also administration/systems and related areas. I’m looking for a place where I can bring value from day one while growing my cloud and automation skills.",
     "ctaPortfolio": "🚀 View portfolio",
     "ctaCv": "📄 Download CV",
     "ctaContact": "✉️ Contact",
@@ -40,7 +40,7 @@
   "about": {
     "title": "About me",
     "kicker": "Infrastructure • Automation • Development",
-    "p1": "Hi! My name is <strong>Tomasz Skorupski</strong>. Since 2018 I have been working in IT – from helpdesk, through system and network administration, to platform and tool development. I combine <strong>Windows Server (AD, GPO)</strong>, <strong>Linux/Bash</strong>, networks <strong>TCP/IP, DNS, DHCP, VPN</strong> and databases (<strong>MySQL, PostgreSQL, SQL Server</strong>) with <strong>React/JavaScript</strong> development and <strong>DevOps</strong> tooling (<strong>Git, Docker, CI/CD</strong>).",
+    "p1": "Hi! My name is <strong>Tomasz Skorupski</strong>. Since 2018 I have been working in IT - from helpdesk, through system and network administration, to platform and tool development. I combine <strong>Windows Server (AD, GPO)</strong>, <strong>Linux/Bash</strong>, networks <strong>TCP/IP, DNS, DHCP, VPN</strong> and databases (<strong>MySQL, PostgreSQL, SQL Server</strong>) with <strong>React/JavaScript</strong> development and <strong>DevOps</strong> tooling (<strong>Git, Docker, CI/CD</strong>).",
     "p2": "I’ve just finished my first longer break in a while and I’m actively seeking a role aligned with my skills and previous experience. My goal is to grow into a <strong>Junior DevOps Engineer / Cloud SysAdmin</strong>. In parallel, I’m building my own application, developing hands-on skills in automation, containerization and CI/CD best practices.",
     "p3": "Previously, I was responsible for support, environment stability, modernization and improvements as an IT Administrator & Developer Platform at Streetcom.",
     "bullets": [
@@ -159,7 +159,7 @@
         "bullets": [
           "IT support for retail: service tickets, diagnostics and repair of POS equipment.",
           "Network and device configuration, IT assets inventory.",
-          "Fiscal devices service — solving diverse issues across many locations."
+          "Fiscal devices service - solving diverse issues across many locations."
         ],
         "tags": {
           "pos": "POS/Service",
@@ -248,7 +248,7 @@
   },
   "portfolio": {
     "title": "Portfolio",
-    "subtitleHtml": "My public portfolio is modest for now, as most of my past work was done for employers and cannot be shared openly. In parallel, I’m building a series of demo projects — new items will appear here soon. I publish everything, including smaller and experimental works, on <link>GitHub</link>.",
+    "subtitleHtml": "My public portfolio is modest for now, as most of my past work was done for employers and cannot be shared openly. In parallel, I’m building a series of demo projects - new items will appear here soon. I publish everything, including smaller and experimental works, on <link>GitHub</link>.",
     "actions": {
       "demo": "View Demo",
       "code": "Code"
@@ -256,14 +256,14 @@
     "projects": {
       "pwaCookbook": {
         "title": "Mobile Cookbook (PWA)",
-        "subtitle": "Progressive Web App — diploma project",
+        "subtitle": "Progressive Web App - diploma project",
         "description": "I built a progressive web app (PWA) that helps plan meals based on ingredients available at home. It integrates a recipe database, preparation steps and side‑dish cooking times, while a built‑in timer with sound notification helps control the process. Designed mobile‑first, it also works offline and is accessible on any device with a browser. It truly shortens time spent cooking and helps decide “what to cook.” Built with React, focusing on performance and UX, as part of my diploma work.",
         "tech": ["React", "Firebase", "PWA"]
       },
       "animalsOnePage": {
         "title": "Interesting Animals - One Page",
         "subtitle": "Simple One Page website (student project)",
-        "description": "A very simple, static one‑page website created during studies as part of an assignment. It presents selected, interesting animal species in short sections — with basic info and curiosities. I treat it as a small supplementary piece showing consistency in documenting progress. I’m aware it doesn’t represent my current skills and I’ll replace it with newer, original projects soon.",
+        "description": "A very simple, static one‑page website created during studies as part of an assignment. It presents selected, interesting animal species in short sections - with basic info and curiosities. I treat it as a small supplementary piece showing consistency in documenting progress. I’m aware it doesn’t represent my current skills and I’ll replace it with newer, original projects soon.",
         "tech": ["HTML", "CSS", "JavaScript"]
       }
     }
@@ -291,9 +291,9 @@
       "fillAll": "Please correct the highlighted fields."
     },
     "status": {
-      "ok": "Thanks — your message was sent!",
+      "ok": "Thanks - your message was sent!",
       "sendError": "Sending error.",
-      "network": "Network error — please try again."
+      "network": "Network error - please try again."
     },
     "or": "Or write directly to:"
   }
