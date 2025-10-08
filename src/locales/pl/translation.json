@@ -77,6 +77,15 @@
       "mysql": "MySQL",
       "firebase": "Firebase",
       "jira": "Jira"
+    },
+    "softSkillsTitle": "Umiejętności miękkie",
+    "soft": {
+      "pass": "Pasja",
+      "account": "Odpowiedzialność",
+      "team": "Praca zespołowa",
+      "creativity": "Kreatywność",
+      "flex": "Elastyczność",
+      "lead": "Przywództwo"
     }
   },
   "skills": {

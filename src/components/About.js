@@ -1,4 +1,3 @@
-// src/pages/about/about.js
 import React from "react";
 import { HashLink } from "react-router-hash-link";
 import "./About.css";
@@ -27,6 +26,52 @@ import { useTranslation, Trans } from "react-i18next";
 
 const About = () => {
     const { t } = useTranslation();
+
+    // Komponent pojedynczego pierścienia umiejętności
+    const SkillRing = ({ label, value, color }) => {
+        const size = 88;       // było 92 – dopasowane do nowych szerokości
+        const stroke = 10;
+        const r = (size - stroke) / 2;
+        const cx = size / 2;
+        const cy = size / 2;
+        const circ = 2 * Math.PI * r;
+        const dash = (value / 100) * circ;
+        const rest = circ - dash;
+        return (
+            <div className="skillring" aria-label={`${label} ${value}%`}>
+                <svg
+                    className="skillring__svg"
+                    width={size}
+                    height={size}
+                    viewBox={`0 0 ${size} ${size}`}
+                >
+                    <circle
+                        cx={cx}
+                        cy={cy}
+                        r={r}
+                        stroke="rgba(255,255,255,.12)"
+                        strokeWidth={stroke}
+                        fill="none"
+                    />
+                    <circle
+                        cx={cx}
+                        cy={cy}
+                        r={r}
+                        stroke={color}
+                        strokeWidth={stroke}
+                        fill="none"
+                        strokeLinecap="round"
+                        strokeDasharray={`${dash} ${rest}`}
+                        transform={`rotate(-90 ${cx} ${cy})`}
+                    />
+                </svg>
+                <div className="skillring__label">
+                    <span className="skillring__name">{label}</span>
+                    <span className="skillring__val">{value}%</span>
+                </div>
+            </div>
+        );
+    };
 
     return (
         <section id="about" className="about">
@@ -120,7 +165,18 @@ const About = () => {
                                 <p>{t("about.facts.certsValue")}</p>
                             </div>
                         </div>
-                        {/* usunięto: about__divider + blok "Wybrane projekty" */}
+                        {/* Ringi umiejętności – elegancko pod faktami, bez overlaya */}
+                        <div className="about__rings-block">
+
+                            <div className="about__rings-grid">
+                                <SkillRing label={t("about.soft.pass")} value={95} color="#9b5cff" />
+                                <SkillRing label={t("about.soft.account")} value={90} color="#3aa2ff" />
+                                <SkillRing label={t("about.soft.team")} value={80} color="#ffb640" />
+                                <SkillRing label={t("about.soft.creativity")} value={74} color="#31d287" />
+                                <SkillRing label={t("about.soft.flex")} value={90} color="#22e1d9" />
+                                <SkillRing label={t("about.soft.lead")} value={60} color="#ff6f7d" />
+                            </div>
+                        </div>
                     </aside>
                 </div>
 

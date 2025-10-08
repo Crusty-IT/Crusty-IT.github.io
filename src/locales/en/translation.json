@@ -77,6 +77,15 @@
       "mysql": "MySQL",
       "firebase": "Firebase",
       "jira": "Jira"
+    },
+    "softSkillsTitle": "Soft skills",
+    "soft": {
+      "pass": "Passion",
+      "account": "Accountability",
+      "team": "Teamwork",
+      "creativity": "Creativity",
+      "flex": "Flexibility",
+      "lead": "Leadership"
     }
   },
   "experience": {
