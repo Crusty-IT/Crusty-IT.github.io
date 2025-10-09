@@ -105,9 +105,12 @@ export default function Home() {
         if (el) el.scrollIntoView({ behavior: "smooth", block: "start" });
     };
 
-    // Adresy do CV w repo (RAW + CDN fallback)
-    const GITHUB_CV_RAW = 'https://raw.githubusercontent.com/shellupski/Moja-strona/main/public/cv/CV_PL_public.pdf';
-    const GITHUB_CV_CDN = 'https://cdn.jsdelivr.net/gh/shellupski/Moja-strona@main/public/cv/CV_PL_public.pdf';
+    // Adresy do CV w repo (RAW + CDN fallback) - dopasowane do języka
+    const CV_FILE_PL = 'CV_PL_public.pdf';
+    const CV_FILE_EN = 'CV_ANG_public.pdf';
+    const CV_FILE = isEN ? CV_FILE_EN : CV_FILE_PL;
+    const GITHUB_CV_RAW = `https://raw.githubusercontent.com/shellupski/Moja-strona/main/public/cv/${CV_FILE}`;
+    const GITHUB_CV_CDN = `https://cdn.jsdelivr.net/gh/shellupski/Moja-strona@main/public/cv/${CV_FILE}`;
 
     // Wymuszone pobieranie CV (fetch -> blob -> download), z fallbackami
     const downloadCV = async (e) => {
@@ -119,7 +122,7 @@ export default function Home() {
             const objUrl = URL.createObjectURL(blob);
             const a = document.createElement('a');
             a.href = objUrl;
-            a.download = 'CV_PL_public.pdf';
+            a.download = CV_FILE;
             document.body.appendChild(a);
             a.click();
             a.remove();
