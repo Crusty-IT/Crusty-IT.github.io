@@ -40,8 +40,8 @@ const Skills = () => {
   // Ujednolicone progi — muszą odpowiadać legendzie (~80 / ~65 / ~45)
   const LEVELS = useMemo(() => (
     isEN
-      ? { Advanced: 24, Intermediate: 56, Basics: 20 }
-      : { Zaawansowany: 24, "Średniozaawansowany": 56, Podstawy:20 }
+      ? { Advanced: 80, Intermediate: 65, Basics: 45}
+      : { Zaawansowany: 80, "Średniozaawansowany": 65, Podstawy:45 }
   ), [isEN]);
 
   const GROUPS = useMemo(() => [
