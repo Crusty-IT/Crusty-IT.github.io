@@ -86,7 +86,7 @@
   background: rgba(12,18,28,0.55);
   border: 1px solid rgba(255,255,255,0.12);
   box-shadow: 0 10px 30px rgba(2,8,24,.35);
-  overflow: hidden; /* ukryj pigułkę poza obrysem */
+  overflow-y: hidden; /* ukryj pigułkę poza obrysem, ale pozwól na poziomy scroll */
 }
 
 /* Pigułka pod aktywnym/hover */
@@ -150,9 +150,9 @@
 
 @media (max-width: 680px) {
   .main-nav ul {
-    flex-wrap: wrap;       /* gdy brakuje miejsca, 2 rzędy */
-    row-gap: 10px;
-    justify-content: center;
+    flex-wrap: nowrap;     /* trzymaj w jednym rzędzie dla przewijania */
+    row-gap: 0;
+    justify-content: flex-start;
   }
   .main-nav { border-radius: 16px; }
 }
@@ -229,12 +229,14 @@ body {
     .main-nav {
         display: flex !important;          /* nadpisuje wcześniejsze display:none */
         align-items: center;
-        justify-content: center;
+        justify-content: flex-start;        /* zaczynaj od lewej, nie centruj */
         width: min(100%, 96vw);
         padding: 0.55rem var(--nav-pad-x);
         overflow-x: auto;
         -webkit-overflow-scrolling: touch;
         scrollbar-width: thin;
+        touch-action: pan-x;                    /* pozwól na przesuwanie w poziomie */
+        overscroll-behavior-inline: contain;    /* nie przewijaj całej strony przy końcach */
     }
 
     .main-nav ul {

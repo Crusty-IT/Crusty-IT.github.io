@@ -34,8 +34,17 @@ const Navbar = () => {
     const container = linksContainerRef.current;
     if (!container) return;
     const active = container.querySelector('a.active');
-    if (active) setPillToElement(active);
-    else container.style.setProperty('--pill-opacity', '0');
+    if (active) {
+      setPillToElement(active);
+      // Upewnij się, że aktywny link jest widoczny w poziomym scrollerze (mobile)
+      try {
+        active.scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'center' });
+      } catch (_) {
+        // scrollIntoView może nie być wspierane w bardzo starych przeglądarkach – ignorujemy
+      }
+    } else {
+      container.style.setProperty('--pill-opacity', '0');
+    }
   }, [setPillToElement]);
 
   const handleMouseEnter = (e) => {
