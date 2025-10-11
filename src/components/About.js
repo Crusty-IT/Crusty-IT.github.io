@@ -125,7 +125,7 @@ const About = () => {
                                 <FaGithub />
                             </a>
                             <a
-                                href="www.linkedin.com/in/tomasz-skorupski-a078ba389"
+                                href="https://www.linkedin.com/in/tomasz-skorupski-a078ba389"
                                 aria-label={t("about.social.linkedinAria")}
                                 target="_blank"
                                 rel="noopener noreferrer"
