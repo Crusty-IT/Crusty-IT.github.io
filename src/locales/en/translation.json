@@ -93,13 +93,13 @@
     "kicker": "Stability • Automation • Support • Development",
     "jobs": {
       "streetcom": {
-        "where": "Streetcom • Administrator Systemów IT & Developer Platform",
+        "where": "Streetcom • IT Systems Administrator & Platform Developer",
         "date": "02.2024 – 08.2025",
-        "loc": "Warszawa / zdalnie",
+        "loc": "Warsaw / Remote",
         "bullets": [
-          "Kompleksowa obsługa IT, administracja systemami i bazami danych, modernizacja i usprawnienia.",
-          "Rozwiązywanie problemów funkcjonalnych, poprawa niezawodności i doświadczeń użytkowników.",
-          "Udział w inicjatywach dot. automatyzacji i optymalizacji procesów."
+          "Provided end-to-end IT support and administered systems and databases; led modernization and improvement efforts.",
+          "Troubleshot functional issues and enhanced system reliability and user experience.",
+          "Contributed to automation and process-optimization initiatives."
         ],
         "tags": {
           "servers": "Windows/Linux",
