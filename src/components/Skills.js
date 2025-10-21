@@ -1,4 +1,3 @@
-// React i style
 import React, { useMemo, useState } from "react";
 import "./Skills.css";
 import {
@@ -37,7 +36,6 @@ const Skills = () => {
   const { t, i18n } = useTranslation();
   const isEN = i18n.language?.startsWith("en");
 
-  // Ujednolicone progi — muszą odpowiadać legendzie (~80 / ~65 / ~45)
   const LEVELS = useMemo(() => (
     isEN
       ? { Advanced: 80, Intermediate: 65, Basics: 45}
@@ -155,7 +153,6 @@ const Skills = () => {
           </h2>
           <p className="skills__kicker">{t("skills.kicker")}</p>
 
-          {/* Legenda: semantycznie i dostępnie, spójna z LEVELS */}
           <dl className="skills__legend" aria-label={t("skills.legend.aria", { defaultValue: "Legenda poziomów umiejętności" })}>
             <div className="legend-item">
               <dt><b>{t("skills.legend.adv")}</b></dt>

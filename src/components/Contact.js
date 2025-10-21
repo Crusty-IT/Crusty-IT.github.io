@@ -1,4 +1,3 @@
-// src/components/Contact.js
 import React, { useState, useRef } from "react";
 import "./Contact.css";
 import { useTranslation } from "react-i18next";
@@ -10,7 +9,6 @@ export default function Contact() {
   const [touched, setTouched] = useState({ name: false, email: false, message: false });
   const [status, setStatus] = useState({ loading: false, ok: null, text: "" });
 
-  // Użyj własnego endpointu
   const FORMSPREE_ENDPOINT = "https://formspree.io/f/xovlyajk";
 
   const emailOk = (v) =>
@@ -40,7 +38,6 @@ export default function Contact() {
   const handleSubmit = async (e) => {
     e.preventDefault();
 
-    // pokaż błędy dla wszystkich pól
     setTouched({ name: true, email: true, message: true });
 
     if (Object.keys(errors).length) {

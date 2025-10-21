@@ -5,7 +5,6 @@ import './Navbar.css';
 
 const LOGO_URL = 'https://raw.githubusercontent.com/shellupski/Moja-strona/main/images/logo_horizontaly.svg';
 
-// stabilna lista (nie zmienia się między renderami)
 const Navbar = () => {
     const { t, i18n } = useTranslation();
   const linksContainerRef = useRef(null);
@@ -36,11 +35,9 @@ const Navbar = () => {
     const active = container.querySelector('a.active');
     if (active) {
       setPillToElement(active);
-      // Upewnij się, że aktywny link jest widoczny w poziomym scrollerze (mobile)
       try {
         active.scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'center' });
       } catch (_) {
-        // scrollIntoView może nie być wspierane w bardzo starych przeglądarkach – ignorujemy
       }
     } else {
       container.style.setProperty('--pill-opacity', '0');
@@ -62,7 +59,6 @@ const Navbar = () => {
 
   useEffect(() => {
     setPillToActive();
-    // zależymy tylko od ścieżki i funkcji (stabilnej), nie od i18n.language
   }, [location.pathname, setPillToActive]);
 
   useEffect(() => {

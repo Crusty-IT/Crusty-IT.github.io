@@ -1,11 +1,11 @@
-// src/sections/home.js
+
 import React, { useEffect, useState } from "react";
 import "./Home.css";
 import { HashLink } from 'react-router-hash-link';
 import { useTranslation } from "react-i18next";
 
-// Opcjonalnie podmień ścieżkę do avatara/CV w /public
-const AVATAR = "https://raw.githubusercontent.com/shellupski/Moja-strona/main/images/logo_vertical.svg"; // jeśli nie masz zdjęcia, zostaw pusty string
+
+const AVATAR = "https://raw.githubusercontent.com/shellupski/Moja-strona/main/images/logo_vertical.svg";
 
 const ROLES_PL = [
     "Specjalista IT",
@@ -56,14 +56,12 @@ export default function Home() {
     const [reverse, setReverse] = useState(false);
     const [blink, setBlink] = useState(true);
 
-    // Reset efektu pisania przy zmianie języka (żeby nie rwało liter)
     useEffect(() => {
         setSubIndex(0);
         setRoleIndex(0);
         setReverse(false);
     }, [isEN]);
 
-    // Typewriter effect for ROLES
     useEffect(() => {
         if (reverse) {
             if (subIndex === 0) {
@@ -83,13 +81,11 @@ export default function Home() {
         return () => clearTimeout(timeout);
     }, [subIndex, roleIndex, reverse, ROLES]);
 
-    // Caret blink
     useEffect(() => {
         const blinkTimer = setInterval(() => setBlink((b) => !b), 420);
         return () => clearInterval(blinkTimer);
     }, []);
 
-    // Magnetic glow for CTA buttons
     const handleMagnet = (e) => {
         const btn = e.currentTarget;
         const rect = btn.getBoundingClientRect();
@@ -99,20 +95,17 @@ export default function Home() {
         btn.style.setProperty("--y", `${y}px`);
     };
 
-    // Smooth scroll helpers
     const scrollToId = (id) => {
         const el = document.getElementById(id);
         if (el) el.scrollIntoView({ behavior: "smooth", block: "start" });
     };
 
-    // Adresy do CV w repo (RAW + CDN fallback) - dopasowane do języka
     const CV_FILE_PL = 'CV_PL_public.pdf';
     const CV_FILE_EN = 'CV_ANG_public.pdf';
     const CV_FILE = isEN ? CV_FILE_EN : CV_FILE_PL;
     const GITHUB_CV_RAW = `https://raw.githubusercontent.com/shellupski/Moja-strona/main/public/cv/${CV_FILE}`;
     const GITHUB_CV_CDN = `https://cdn.jsdelivr.net/gh/shellupski/Moja-strona@main/public/cv/${CV_FILE}`;
 
-    // Wymuszone pobieranie CV (fetch -> blob -> download), z fallbackami
     const downloadCV = async (e) => {
         e.preventDefault();
         const tryDownload = async (url) => {
@@ -130,24 +123,22 @@ export default function Home() {
         };
 
         try {
-            await tryDownload(GITHUB_CV_RAW);         // 1) RAW GitHub
+            await tryDownload(GITHUB_CV_RAW);
         } catch (_) {
             try {
-                await tryDownload(GITHUB_CV_CDN);     // 2) jsDelivr CDN fallback
+                await tryDownload(GITHUB_CV_CDN);
             } catch {
-                window.open(GITHUB_CV_RAW, '_blank', 'noopener,noreferrer'); // 3) otwórz w nowej karcie
+                window.open(GITHUB_CV_RAW, '_blank', 'noopener,noreferrer');
             }
         }
     };
 
     return (
         <section id="home" className="home">
-            {/* Decorative background */}
             <div className="aurora" aria-hidden="true" />
             <div className="stars" aria-hidden="true" />
 
             <div className="home__inner">
-                {/* Left: Hero copy */}
                 <div className="hero glass">
                     <div className="hero__eyebrow">{t("home.eyebrow")}</div>
 
@@ -178,8 +169,8 @@ export default function Home() {
                         <a
                             className="btn-glass"
                             onMouseMove={handleMagnet}
-                            href={GITHUB_CV_RAW}        // bezpośredni adres (fallback)
-                            onClick={downloadCV}        // wymuszenie pobrania przez blob
+                            href={GITHUB_CV_RAW}
+                            onClick={downloadCV}
                             target="_blank"
                             rel="noopener noreferrer"
                         >
@@ -256,7 +247,6 @@ export default function Home() {
                     </div>
                 </div>
 
-                {/* Right: Avatar / floating card */}
                 <div className="hero-visual">
                     <div className="visual-orb" aria-hidden="true" />
                     <div className="visual-card glass">

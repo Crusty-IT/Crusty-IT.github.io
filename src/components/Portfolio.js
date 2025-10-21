@@ -5,11 +5,10 @@ import cookbookThumbnail from './assets/mobile_cook.jpg';
 import animalsThumbnail from './assets/one_page_animals.jpg';
 import { useTranslation, Trans } from 'react-i18next';
 
-// ... existing code ...
+
 const Portfolio = () => {
-  const { t, i18n } = useTranslation();
-  // USUNIĘTO: activeFilter (niepotrzebne po skasowaniu podziału)
-  // const [activeFilter, setActiveFilter] = useState('all');
+    const { t, i18n } = useTranslation();
+
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
@@ -46,10 +45,6 @@ const Portfolio = () => {
     }
   ]), [t, i18n.language]);
 
-  // USUNIĘTO: allTech i filtered (nie filtrujemy)
-  // const allTech = useMemo(() => { ... }, [projects]);
-  // const filtered = useMemo(() => { ... }, [projects]);
-
   return (
     <div className="portfolio-container" id="portfolio">
       <div className="gradient-background" aria-hidden="true"></div>
@@ -65,8 +60,6 @@ const Portfolio = () => {
             />
           </p>
 
-          {/* USUNIĘTO cały pasek filtrów */}
-          {/* <nav className="filters" ...> ... </nav> */}
         </header>
 
         <section className="projects-grid" aria-live="polite">
@@ -94,7 +87,7 @@ const Portfolio = () => {
               </div>
             </>
           ) : (
-            // WYŚWIETLAMY WSZYSTKIE PROJEKTY BEZ FILTRÓW
+
             projects.map((project, index) => (
               <article
                 key={project.id}
@@ -165,9 +158,7 @@ const Portfolio = () => {
               </article>
             ))
           )}
-
-          {/* USUNIĘTO „empty-state” dla filtra */}
-          {/* {!isLoading && filtered.length === 0 && ( ... )} */}
+            
         </section>
       </div>
     </div>
@@ -175,4 +166,3 @@ const Portfolio = () => {
 };
 
 export default Portfolio;
-// ... existing code ...

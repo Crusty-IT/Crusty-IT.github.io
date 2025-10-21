@@ -1,4 +1,3 @@
-// App.js
 
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
@@ -11,7 +10,6 @@ import Skills from "./components/Skills";
 import Portfolio from "./components/Portfolio";
 import Contact from "./components/Contact";
 
-// Importujemy główny plik CSS aplikacji
 import './App.css';
 
 function App() {
@@ -19,7 +17,6 @@ function App() {
         <Router>
             <Navbar />
 
-            {/* Dodajemy główny kontener na treść strony */}
             <main className="main-content">
                 <Routes>
                     <Route path="/" element={<Home />} />

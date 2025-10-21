@@ -27,9 +27,8 @@ import { useTranslation, Trans } from "react-i18next";
 const About = () => {
     const { t } = useTranslation();
 
-    // Komponent pojedynczego pierścienia umiejętności
     const SkillRing = ({ label, value, color }) => {
-        const size = 88;       // było 92 – dopasowane do nowych szerokości
+        const size = 88;
         const stroke = 10;
         const r = (size - stroke) / 2;
         const cx = size / 2;
@@ -75,7 +74,6 @@ const About = () => {
 
     return (
         <section id="about" className="about">
-            {/* dekoracyjne plamy */}
             <span className="about__blob about__blob--a"></span>
             <span className="about__blob about__blob--b"></span>
 
@@ -90,7 +88,6 @@ const About = () => {
                 </header>
 
                 <div className="about__grid">
-                    {/* LEWA KOLUMNA – opis */}
                     <div className="about__text animate-slide-up">
                         <p>
                             <Trans i18nKey="about.p1" components={{ strong: <strong /> }} />
@@ -135,7 +132,6 @@ const About = () => {
                         </div>
                     </div>
 
-                    {/* PRAWA KOLUMNA – karta faktów */}
                     <aside className="about__card animate-fade-in delay-1s">
                         <div className="about__fact">
                             <FaMapMarkerAlt />
@@ -165,7 +161,6 @@ const About = () => {
                                 <p>{t("about.facts.certsValue")}</p>
                             </div>
                         </div>
-                        {/* Ringi umiejętności – elegancko pod faktami, bez overlaya */}
                         <div className="about__rings-block">
 
                             <div className="about__rings-grid">
@@ -180,7 +175,6 @@ const About = () => {
                     </aside>
                 </div>
 
-                {/* TECH STACK */}
                 <section className="about__tech animate-slide-up delay-2s">
                     <h3>{t("about.techTitle")}</h3>
                     <div className="about__tech-grid">
