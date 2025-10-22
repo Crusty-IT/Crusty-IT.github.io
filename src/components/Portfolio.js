@@ -9,7 +9,6 @@ import ksefThumbnail from './assets/ksef-master.jpg';
 import cookbookThumbnail from './assets/mobile_cook.jpg';
 import animalsThumbnail from './assets/one_page_animals.jpg';
 
-
 const Portfolio = () => {
     const { t, i18n } = useTranslation();
 
@@ -70,7 +69,7 @@ const Portfolio = () => {
             description: t('portfolio.projects.animalsOnePage.description'),
             technologies: t('portfolio.projects.animalsOnePage.tech', { returnObjects: true }),
             role: t('portfolio.projects.animalsOnePage.role', { defaultValue: 'Developer' }),
-            year: '2020',
+            year: '2018',
             caseStudyLink: t('portfolio.projects.animalsOnePage.case', { defaultValue: '' }) || null,
         }
     ]), [t, i18n.language]);
@@ -143,10 +142,10 @@ const Portfolio = () => {
                                         <h3 className="project-heading" itemProp="name">{project.title}</h3>
                                         <div className="project-meta">
                                             {project.subtitle && <span className="project-subtitle" itemProp="about">{project.subtitle}</span>}
-                                            {(project.year || project.role) && (
+                                            {/* ZMIANA TUTAJ: Wyświetlanie tylko roku w jednym elemencie */}
+                                            {project.year && (
                                                 <span className="project-chipset">
-                                                    {project.year && <span className="chip">{project.year}</span>}
-                                                    {project.role && <span className="chip">{project.role}</span>}
+                                                    <span className="chip">{project.year}</span>
                                                 </span>
                                             )}
                                         </div>
