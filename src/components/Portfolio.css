@@ -224,20 +224,7 @@
 @media (prefers-reduced-motion: reduce) { .animate-fade-in, .animate-slide-up { animation: none !important; } }
 
 .filters,
-.tech-badge.is-active,
-.contact-section,
-.contact-card,
-.contact-header,
-.contact-header h2,
-.contact-subtitle,
-.contact-form,
-.contact-form label,
-.contact-form input,
-.contact-form textarea,
-.contact-form button,
-.form-status,
-.or-divider,
-.direct-email-container { display: none; }
+.tech-badge.is-active { /* removed accidental global hide of contact elements */ }
 
 .project-card:hover .project-image { opacity: 0.96; }
 
