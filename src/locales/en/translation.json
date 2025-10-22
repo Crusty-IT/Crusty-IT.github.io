@@ -257,8 +257,8 @@
       "mobiSalon": {
         "title": "MobiSalon - one‑page website with CMS",
         "subtitle": "Marketing site for a grooming salon with News and availability admin panel",
-        "description": "A lightweight single‑page website serving as the salon’s online presence and communications hub. I integrated an admin panel (Netlify CMS) that lets the owner publish News posts and mark availability dates without developer support. The layout is fully responsive, and Netlify deployment ensures fast, reliable delivery.",
-        "tech": ["Next.js", "React", "Netlify CMS", "SCSS", "Responsive", "Netlify"]
+        "description": "A lightweight single‑page website serving as the salon’s online presence and communications hub. I integrated an admin panel (Decap CMS) that lets the owner publish News posts and mark availability dates without developer support. The layout is fully responsive, and Netlify deployment ensures fast, reliable delivery.",
+        "tech": ["Next.js", "React", "Decap CMS", "SCSS", "Responsive", "Netlify"]
       },
       "ksefMaster": {
         "title": "KSeF Master - accounting tool (in development)",

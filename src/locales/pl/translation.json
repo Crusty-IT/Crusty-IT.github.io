@@ -157,8 +157,8 @@
       "mobiSalon": {
         "title": "MobiSalon - strona one‑page z CMS",
         "subtitle": "Witryna dla salonu groomerskiego",
-        "description": "Lekka, przejrzysta strona one‑page pełniąca rolę wizytówki i centrum komunikacji z klientami. Zintegrowałem panel administracyjny (Netlify CMS), który umożliwia właścicielowi samodzielne publikowanie wpisów w sekcji Aktualności oraz zaznaczanie terminów dostępności. Projekt wykonany w Next.js/React, w pełni responsywny; wdrożenie na Netlify zapewnia szybkie i stabilne działanie.",
-        "tech": ["Next.js", "React", "Netlify CMS", "SCSS", "RWD", "Netlify"]
+        "description": "Lekka, przejrzysta strona one‑page pełniąca rolę wizytówki i centrum komunikacji z klientami. Zintegrowałem panel administracyjny (Decap CMS), który umożliwia właścicielowi samodzielne publikowanie wpisów w sekcji Aktualności oraz zaznaczanie terminów dostępności. Projekt wykonany w Next.js/React, w pełni responsywny; wdrożenie na Netlify zapewnia szybkie i stabilne działanie.",
+        "tech": ["Next.js", "React", "Decap CMS", "SCSS", "RWD", "Netlify"]
       },
       "ksefMaster": {
         "title": "KSeF Master - narzędzie dla księgowości (w trakcie realizacji)",
