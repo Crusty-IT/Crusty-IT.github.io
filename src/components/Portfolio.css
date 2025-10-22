@@ -237,7 +237,7 @@
 .contact-form button,
 .form-status,
 .or-divider,
-.direct-email-container { display: none; } /* Ukrywa nieużywane style */
+.direct-email-container { display: none; }
 
 .project-card:hover .project-image { opacity: 0.96; }
 
