@@ -154,6 +154,18 @@
       "code": "Kod"
     },
     "projects": {
+      "mobiSalon": {
+        "title": "MobiSalon — strona one‑page z CMS",
+        "subtitle": "Witryna dla salonu groomerskiego z panelem Aktualności i oznaczaniem dostępności",
+        "description": "Lekka, przejrzysta strona one‑page pełniąca rolę wizytówki i centrum komunikacji z klientami. Zintegrowałem panel administracyjny (Netlify CMS), który umożliwia właścicielowi samodzielne publikowanie wpisów w sekcji Aktualności oraz zaznaczanie terminów dostępności. Projekt wykonany w Next.js/React, w pełni responsywny; wdrożenie na Netlify zapewnia szybkie i stabilne działanie.",
+        "tech": ["Next.js", "React", "Netlify CMS", "SCSS", "RWD", "Netlify"]
+      },
+      "ksefMaster": {
+        "title": "KSeF Master — narzędzie dla księgowości (w trakcie realizacji)",
+        "subtitle": "Integracja z KSeF: pobieranie i wystawianie faktur",
+        "description": "Przeglądarkowa aplikacja wspierająca obsługę e‑faktur. W pierwszym etapie powstają funkcje pobierania oraz wystawiania faktur poprzez oficjalne API KSeF. Obecnie prace są tymczasowo wstrzymane z powodu przerwy w dostępności środowiska testowego KSeF po stronie Ministerstwa Finansów — rozwój zostanie wznowiony po przywróceniu dostępu.",
+        "tech": ["React", "JavaScript", "REST API", "KSeF", "Netlify", "RWD"]
+      },
       "pwaCookbook": {
         "title": "Mobilna Książka Kucharska (PWA)",
         "subtitle": "Progresywna Aplikacja Webowa - projekt dyplomowy",
@@ -167,7 +179,7 @@
         "tech": ["HTML", "CSS", "JavaScript"]
       }
     }
-  },
+},
   "experience": {
     "title": "Doświadczenie zawodowe",
     "kicker": "Stabilność • Automatyzacja • Wsparcie • Development",
