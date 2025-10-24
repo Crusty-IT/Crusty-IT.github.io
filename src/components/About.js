@@ -154,29 +154,31 @@ const About = () => {
                                 <p>{t("about.facts.languagesValue")}</p>
                             </div>
                         </div>
-                        <div className="about__fact">
-                            <FaCodeBranch /><div>
+                        <div>
+
                             <h4>{t("about.facts.certsTitle")}</h4>
 
-                            <p>
-                                <a
-                                    href={t("about.facts.cert1Url")}
-                                    target="_blank"
-                                    rel="noopener noreferrer"
-                                >
-                                    {t("about.facts.cert1Name")}
-                                </a>
-                            </p>
+                            <ul className="certs-list">
+                                <li>
+                                    <a
+                                        href={t("about.facts.cert1Url")}
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                    >
+                                        {t("about.facts.cert1Name")}
+                                    </a>
+                                </li>
 
-                            <p>
-                                <a
-                                    href={t("about.facts.cert2Url")}
-                                    target="_blank"
-                                    rel="noopener noreferrer"
-                                >
-                                    {t("about.facts.cert2Name")}
-                                </a>
-                            </p>
+                                <li>
+                                    <a
+                                        href={t("about.facts.cert2Url")}
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                    >
+                                        {t("about.facts.cert2Name")}
+                                    </a>
+                                </li>
+                            </ul>
                         </div>
                         </div>
                         <div className="about__rings-block">
