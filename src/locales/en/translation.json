@@ -63,7 +63,10 @@
       "languagesTitle": "Languages",
       "languagesValue": "English B2, German A1",
       "certsTitle": "Certificates",
-      "certsValue": "PHP Developer (Strefa Kursów, 2025), GitHub Copilot (Coders Lab, 2025)"
+      "cert1Name": "PHP Developer (Strefa Kursów, 2025)",
+      "cert1Url": "https://github.com/Crusty-IT/Crusty-IT.github.io/blob/main/public/certs/cert1.pdf",
+      "cert2Name": "GitHub Copilot (Coders Lab, 2025)",
+      "cert2Url":"https://github.com/Crusty-IT/Crusty-IT.github.io/blob/main/public/certs/cert2.pdf"
     },
     "techTitle": "Technologies I like and use",
     "techChips": {

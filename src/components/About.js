@@ -155,11 +155,29 @@ const About = () => {
                             </div>
                         </div>
                         <div className="about__fact">
-                            <FaCodeBranch />
-                            <div>
-                                <h4>{t("about.facts.certsTitle")}</h4>
-                                <p>{t("about.facts.certsValue")}</p>
-                            </div>
+                            <FaCodeBranch /><div>
+                            <h4>{t("about.facts.certsTitle")}</h4>
+
+                            <p>
+                                <a
+                                    href={t("about.facts.cert1Url")}
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
+                                    {t("about.facts.cert1Name")}
+                                </a>
+                            </p>
+
+                            <p>
+                                <a
+                                    href={t("about.facts.cert2Url")}
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
+                                    {t("about.facts.cert2Name")}
+                                </a>
+                            </p>
+                        </div>
                         </div>
                         <div className="about__rings-block">
 
