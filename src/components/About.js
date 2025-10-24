@@ -155,9 +155,7 @@ const About = () => {
                             </div>
                         </div>
                         <div>
-
                             <h4>{t("about.facts.certsTitle")}</h4>
-
                             <ul className="certs-list">
                                 <li>
                                     <a
@@ -168,7 +166,6 @@ const About = () => {
                                         {t("about.facts.cert1Name")}
                                     </a>
                                 </li>
-
                                 <li>
                                     <a
                                         href={t("about.facts.cert2Url")}
@@ -179,7 +176,6 @@ const About = () => {
                                     </a>
                                 </li>
                             </ul>
-                        </div>
                         </div>
                         <div className="about__rings-block">
 
