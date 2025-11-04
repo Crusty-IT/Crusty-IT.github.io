@@ -30,7 +30,7 @@ const Portfolio = () => {
             description: t('portfolio.projects.ksefMaster.description'),
             technologies: t('portfolio.projects.ksefMaster.tech', { returnObjects: true }),
             role: t('portfolio.projects.ksefMaster.role', { defaultValue: 'WIP' }),
-            year: '2024',
+            year: '2025',
             caseStudyLink: t('portfolio.projects.ksefMaster.case', { defaultValue: '' }) || null,
         },
         {
@@ -43,7 +43,7 @@ const Portfolio = () => {
             description: t('portfolio.projects.mobiSalon.description'),
             technologies: t('portfolio.projects.mobiSalon.tech', { returnObjects: true }),
             role: t('portfolio.projects.mobiSalon.role', { defaultValue: 'Developer' }),
-            year: '2024',
+            year: '2025',
             caseStudyLink: t('portfolio.projects.mobiSalon.case', { defaultValue: '' }) || null,
         },
         {
@@ -142,7 +142,6 @@ const Portfolio = () => {
                                         <h3 className="project-heading" itemProp="name">{project.title}</h3>
                                         <div className="project-meta">
                                             {project.subtitle && <span className="project-subtitle" itemProp="about">{project.subtitle}</span>}
-                                            {/* ZMIANA TUTAJ: Wyświetlanie tylko roku w jednym elemencie */}
                                             {project.year && (
                                                 <span className="project-chipset">
                                                     <span className="chip">{project.year}</span>
