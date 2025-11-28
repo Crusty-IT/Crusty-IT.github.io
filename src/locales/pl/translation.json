@@ -160,13 +160,13 @@
       "mobiSalon": {
         "title": "MobiSalon - strona one‑page z CMS",
         "subtitle": "Witryna dla salonu groomerskiego",
-        "description": "Lekka, przejrzysta strona one‑page pełniąca rolę wizytówki i centrum komunikacji z klientami. Zintegrowałem panel administracyjny (Decap CMS), który umożliwia właścicielowi samodzielne publikowanie wpisów w sekcji Aktualności oraz zaznaczanie terminów dostępności. Projekt wykonany w Next.js/React, w pełni responsywny; wdrożenie na Netlify zapewnia szybkie i stabilne działanie.",
+        "description": "Lekka, przejrzysta strona one‑page pełniąca rolę wizytówki i centrum komunikacji z klientami. Zintegrowałem panel administracyjny (Decap CMS), który umożliwia właścicielowi samodzielne publikowanie wpisów w sekcji Aktualności oraz zaznaczanie terminów dostępności. Projekt wykonany w Next.js/React.",
         "tech": ["Next.js", "React", "Decap CMS", "SCSS", "RWD", "Netlify"]
       },
       "ksefMaster": {
         "title": "KSeF Master - narzędzie dla księgowości (w trakcie realizacji)",
         "subtitle": "Integracja z KSeF: pobieranie i wystawianie faktur",
-        "description": "Przeglądarkowa aplikacja wspierająca obsługę e‑faktur. W pierwszym etapie powstają funkcje pobierania oraz wystawiania faktur poprzez oficjalne API KSeF. Obecnie prace są tymczasowo wstrzymane z powodu przerwy w dostępności środowiska testowego KSeF po stronie Ministerstwa Finansów - rozwój zostanie wznowiony po przywróceniu dostępu.",
+        "description": "Przeglądarkowa aplikacja wspierająca obsługę e‑faktur. W pierwszym etapie powstają funkcje pobierania oraz wystawiania faktur poprzez oficjalne API KSeF. Prace nad KSeF są spowolnione przez jego złożoność, trudne API i ciągłe zmiany. Z tego powodu przesunąłem priorytet na inny projekt. Obecnie, w wolnym tempie, tworzę backend na osobnym serwerze.",
         "tech": ["React", "JavaScript", "REST API", "KSeF", "Netlify", "RWD"]
       },
       "pwaCookbook": {
@@ -188,7 +188,7 @@
     "kicker": "Stabilność • Automatyzacja • Wsparcie • Development",
     "jobs": {
       "streetcom": {
-        "where": "Streetcom • Administrator Systemów IT & Developer Platform",
+        "where": "Streetcom • Administrator Systemów IT / Młodszy Programista,
         "date": "02.2024 - 08.2025",
         "loc": "Warszawa / zdalnie",
         "bullets": [
