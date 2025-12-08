@@ -92,18 +92,32 @@ const About = () => {
                         <p>
                             <Trans i18nKey="about.p1" components={{ strong: <strong /> }} />
                         </p>
+                        <p className="about__subhead"><strong>{t("about.approachTitle")}</strong></p>
                         <p>
-                            <Trans i18nKey="about.p2" components={{ strong: <strong /> }} />
-                        </p>
-                        <p>
-                            <Trans i18nKey="about.p3" />
+                            <Trans i18nKey="about.approachIntro" />
                         </p>
 
                         <ul className="about__bullets">
-                            <li>{t("about.bullets.0")}</li>
-                            <li>{t("about.bullets.1")}</li>
-                            <li>{t("about.bullets.2")}</li>
+                            <li>
+                                <Trans i18nKey="about.points.design" components={{ strong: <strong /> }} />
+                            </li>
+                            <li>
+                                <Trans i18nKey="about.points.deploy" components={{ strong: <strong /> }} />
+                            </li>
+                            <li>
+                                <Trans i18nKey="about.points.support" components={{ strong: <strong /> }} />
+                            </li>
                         </ul>
+
+                        <p className="about__subhead"><strong>{t("about.growthTitle")}</strong></p>
+                        <p>
+                            <Trans i18nKey="about.growth" />
+                        </p>
+
+                        <p className="about__subhead"><strong>{t("about.goalTitle")}</strong></p>
+                        <p>
+                            <Trans i18nKey="about.goal" />
+                        </p>
 
                         <div className="about__actions">
                             <HashLink smooth to="/experience#experience" className="btn btn--primary">

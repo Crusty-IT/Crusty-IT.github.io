@@ -106,10 +106,13 @@
 }
 
 .exp__bullets{
-    margin: 8px 0 10px 18px;
+    margin: 10px 0 14px 20px;
     color:#dfe9ff;
 }
-.exp__bullets li{ margin: 6px 0; }
+.exp__bullets li{
+    margin: 8px 0;
+    line-height: 1.55;
+}
 
 .exp__tags{
     display:flex;

@@ -44,6 +44,7 @@ const Experience = () => {
                                 <li>{t("experience.jobs.streetcom.bullets.0")}</li>
                                 <li>{t("experience.jobs.streetcom.bullets.1")}</li>
                                 <li>{t("experience.jobs.streetcom.bullets.2")}</li>
+                                <li>{t("experience.jobs.streetcom.bullets.3")}</li>
                             </ul>
                             <div className="exp__tags">
                                 <span className="tag"><FaServer /> {t("experience.jobs.streetcom.tags.servers")}</span>
@@ -71,6 +72,7 @@ const Experience = () => {
                                 <li>{t("experience.jobs.ata.bullets.0")}</li>
                                 <li>{t("experience.jobs.ata.bullets.1")}</li>
                                 <li>{t("experience.jobs.ata.bullets.2")}</li>
+                                <li>{t("experience.jobs.ata.bullets.3")}</li>
                             </ul>
                             <div className="exp__tags">
                                 <span className="tag"><FaPrint /> {t("experience.jobs.ata.tags.print")}</span>
@@ -97,6 +99,7 @@ const Experience = () => {
                                 <li>{t("experience.jobs.hisert.bullets.0")}</li>
                                 <li>{t("experience.jobs.hisert.bullets.1")}</li>
                                 <li>{t("experience.jobs.hisert.bullets.2")}</li>
+                                <li>{t("experience.jobs.hisert.bullets.3")}</li>
                             </ul>
                             <div className="exp__tags">
                                 <span className="tag"><FaServer /> {t("experience.jobs.hisert.tags.servers")}</span>
@@ -123,6 +126,7 @@ const Experience = () => {
                                 <li>{t("experience.jobs.rzgw.bullets.0")}</li>
                                 <li>{t("experience.jobs.rzgw.bullets.1")}</li>
                                 <li>{t("experience.jobs.rzgw.bullets.2")}</li>
+                                <li>{t("experience.jobs.rzgw.bullets.3")}</li>
                             </ul>
                             <div className="exp__tags">
                                 <span className="tag"><FaNetworkWired /> {t("experience.jobs.rzgw.tags.net")}</span>

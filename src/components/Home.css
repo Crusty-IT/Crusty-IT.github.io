@@ -13,8 +13,8 @@
 
 .home{
     position:relative;
-    min-height:100dvh;
-    padding: clamp(80px, 10vh, 120px) 24px 80px;
+    min-height:88dvh;
+    padding: clamp(56px, 8vh, 96px) 24px 16px;
     color:var(--text);
     background: radial-gradient(1200px 600px at 78% 32%, rgba(123,92,255,.18), transparent 55%),
     radial-gradient(1000px 500px at 15% 75%, rgba(0,200,255,.14), transparent 55%),

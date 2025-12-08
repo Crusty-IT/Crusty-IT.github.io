@@ -8,21 +8,20 @@
     "contact": "Kontakt"
   },
   "home": {
-    "eyebrow": "Crusty IT • Portfolio",
+    "eyebrow": "Crusty IT",
     "greeting": "Cześć, nazywam się",
     "name": "Tomasz Skorupski",
-    "lead": "Jestem specjalistą IT z szerokim przekrojem doświadczeń: administracja Windows/AD i Linux, sieci oraz bazy danych - sprawnie łączę różne technologie w praktyczne rozwiązania. Pracowałem przy modernizacji infrastruktury i usprawnianiu procesów, dbając o stabilność systemów i komfort użytkowników. Obecnie intensywnie rozwijam swoje kompetencje informatyczne, skupiając się na nowoczesnych narzędziach i dobrych praktykach. Realizuję własne projekty, wykorzystując m.in. Git, Docker oraz poznając podstawy CI/CD.\n\nMoje mocne strony to szybkie odnajdywanie się w nowych technologiach, komunikacja, dbałość o dokumentację i ciągła chęć nauki. Jestem otwarty na zdalne role, które pozwolą mi dalej się rozwijać, szczególnie w obszarach administracji systemami, wsparcia technicznego lub pokrewnych. Szukam miejsca, w którym będę mógł wnosić wartość od pierwszego dnia i równolegle rozwijać kompetencje.",
+    "lead": "Łączę wiedzę o infrastrukturze (Admin, Sieci) z pasją do programowania. Tworzę skuteczne rozwiązania biznesowe i aktywnie poszukuję długoterminowej współpracy.",
     "ctaPortfolio": "🚀 Zobacz portfolio",
     "ctaCv": "📄 Pobierz CV",
     "ctaContact": "✉️ Kontakt",
     "stats": {
       "years": { "num": "7+", "label": "lat w IT" },
-      "projects": { "num": "2", "label": "projekty własne (CMS, PWA)" },
-      "english": { "num": "B2", "label": "angielski" },
-      "devops": { "num": "DevOps", "label": "Docker • Git • CI/CD" }
+      "projects": { "num": "5+", "label": "projekty własne (CMS, PWA)" },
+      "english": { "num": "B2", "label": "angielski" }
     },
     "badgeCity": "Stargard, PL",
-    "caption": "Stabilność • Automatyzacja • Bezpieczeństwo",
+    "caption": "Wszechstronność • Stabilność • Bezpieczeństwo",
     "scroll": {
       "aria": "Przewiń do sekcji About",
       "label": "Przewiń"
@@ -38,16 +37,20 @@
     "altText": "Logo"
   },
   "about": {
-    "title": "O mnie",
+    "title": "Crusty IT",
     "kicker": "Infrastruktura • Automatyzacja • Development",
-    "p1": "Cześć! Nazywam się <strong>Tomasz Skorupski</strong>. Od 2018 roku pracuję w IT - od helpdesku, przez administrację systemami i sieciami, po rozwój platform i narzędzi. Łączę <strong>Windows Server (AD, GPO)</strong>, <strong>Linux/Bash</strong>, sieci <strong>TCP/IP, DNS, DHCP, VPN</strong> i bazy danych (<strong>MySQL, PostgreSQL, SQL Server</strong>) z programowaniem w <strong>React/JavaScript</strong> oraz narzędziami <strong>DevOps</strong> (<strong>Git, Docker, CI/CD</strong>).",
-    "p2": "Obecnie jestem po pierwszym od dawna dłuższym urlopie i aktywnie poszukuję pracy zgodnej z moimi umiejętnościami i dotychczasowym doświadczeniem. Moją intencją jest rozwój w kierunku roli <strong>Junior DevOps Engineer / Cloud SysAdmin</strong>. Równolegle tworzę autorskie aplikacje, rozwijając praktyczne kompetencje w zakresie automatyzacji, konteneryzacji i dobrych praktyk CI/CD.",
-    "p3": "Wcześniej odpowiadałem za wsparcie, stabilność środowiska, modernizacje i usprawnienia jako Administrator IT & Developer Platform w Streetcom.",
-    "bullets": [
-      "Projektuję i usprawniam procesy, automatyzuję powtarzalne zadania.",
-      "Dbam o niezawodność, bezpieczeństwo i przejrzystość systemów.",
-      "Komunikuję zrozumiale - łączę potrzeby biznesu z technologią."
-    ],
+    "p1": "Cześć! Tu Tomasz Skorupski. Przez lata dbałem o to, by systemy informatyczne działały bezawaryjnie – administrując serwerami (Windows/Linux), sieciami i bazami danych. Zrozumiałem jednak, że chcę nie tylko naprawiać, utrzymywać i zmieniać, ale przede wszystkim tworzyć. Dziś wykorzystuję to solidne, techniczne zaplecze do budowania i usprawniania rozwiązań.",
+    "approachTitle": "Moje Podejście: Praktyczna Wszechstronność",
+    "approachIntro": "Nie jestem tylko programistą, ani tylko administratorem. Jestem wszechstronnym specjalistą, który widzi szerszy obraz. Moja hybrydowa wiedza gwarantuje, że projektowane przeze mnie rozwiązania są nie tylko innowacyjne, ale i infrastrukturalnie stabilne.",
+    "points": {
+      "design": "<strong>Projektuję i Ulepszam:</strong> Piszę kod i buduję aplikacje, jednocześnie dbając o ich architekturę, testując i optymalizując w celu eliminacji błędów.",
+      "deploy": "<strong>Wdrażam:</strong> Wykorzystuję Git, Docker oraz rozwijam kompetencje w zakresie podstaw CI/CD, aby moje metody pracy były powtarzalne i bezpieczne.",
+      "support": "<strong>Wspieram i Rozumiem:</strong> Dzięki doświadczeniu w IT Support i Administracji, rozumiem perspektywę użytkownika i problemy operacyjne. Wiem, jak ważna jest stabilność i bezpieczeństwo w codziennej pracy."
+    },
+    "growthTitle": "Rozwój i Wizja",
+    "growth": "Równolegle rozwijam swoje kompetencje, realizując własne projekty. Choć zawodowo koncentruję się na Twoich potrzebach, prywatnie pasjonuje mnie rozwój i praktyczne zastosowanie agentów AI w automatyzacji – co zawsze przekłada się na lepsze rozumienie nowoczesnych architektur.",
+    "goalTitle": "Cel: Długofalowa Współpraca",
+    "goal": "Nie szukam \"kolejnego zlecenia\". Aktywnie poszukuję Partnera lub Pracodawcy, z którym zbuduję relację na lata. Zależy mi na miejscu, w którym będę mógł wnosić realną wartość od pierwszego dnia i stale rozwijać swoje kompetencje przy wspólnych, ambitnych projektach.",
     "ctaExperience": "Zobacz doświadczenie",
     "ctaContact": "Skontaktuj się",
     "social": {
@@ -192,9 +195,10 @@
         "date": "02.2024 - 08.2025",
         "loc": "Warszawa / zdalnie",
         "bullets": [
-          "Kompleksowa obsługa IT, administracja systemami i bazami danych, modernizacja i usprawnienia.",
-          "Rozwiązywanie problemów funkcjonalnych, poprawa niezawodności i doświadczeń użytkowników.",
-          "Udział w inicjatywach dot. automatyzacji i optymalizacji procesów."
+          "Kompleksowa opieka nad środowiskiem IT, obejmująca administrację systemami, serwerami i bazami danych, a także ich rozwój i modernizację — z naciskiem na stabilność, bezpieczeństwo i realne potrzeby użytkowników korzystających z infrastruktury na co dzień.",
+          "Rozwiązywanie problemów technicznych i funkcjonalnych pracowników, oparte na współpracy, analizie i zrozumieniu tego, jak technologia wpływa na ich codzienną pracę; od drobnych trudności po złożone zgłoszenia wymagające głębszej diagnostyki.",
+          "Tworzenie i rozwijanie treści oraz funkcjonalności w systemach wewnętrznych, w tym dokumentacji, modułów i usprawnień, które ułatwiały komunikację, porządkowały procesy i zwiększały efektywność zespołów w całej firmie.",
+          "Udział w inicjatywach automatyzacji i optymalizacji procesów, polegający na projektowaniu narzędzi i rozwiązań, które eliminowały powtarzalne zadania, poprawiały niezawodność systemów i odczuwalnie wpływały na komfort pracy użytkowników."
         ],
         "tags": {
           "servers": "Windows/Linux",
@@ -208,11 +212,12 @@
         "date": "04.2023 - 09.2023",
         "loc": "Szczecin",
         "bullets": [
-          "Wdrażanie i integracja systemów druku podążającego, pełne wsparcie techniczne klientów.",
-          "Optymalizacja infrastruktury sieciowej i poprawa stabilności środowisk.",
-          "Centralny nadzór nad urządzeniami drukującymi u klientów."
+          "Wdrażanie i integracja systemów druku podążającego u klientów z różnych branż — od hal produkcyjnych po biura księgowe i kancelarie notarialne — z uwzględnieniem ich specyfiki pracy, procesów oraz realnych potrzeb biznesowych.",
+          "Rozwiązywanie problemów technicznych zdalnie i podczas wizyt u klientów, opartych na bezpośredniej rozmowie, analizie procesów i szybkim dopasowywaniu rozwiązań, które przywracały ciągłość pracy całych zespołów.",
+          "Optymalizacja i stabilizacja środowisk druku, obejmująca usprawnienie komunikacji między urządzeniami, poprawę przepustowości oraz ograniczanie opóźnień wpływających na sprawność kluczowych procesów operacyjnych klientów.",
+          "Stały nadzór nad urządzeniami i środowiskami druku, monitorowanie ich działania oraz szybkie reagowanie na wszelkie nieprawidłowości, aby technologia była dla klientów bezpiecznym i przewidywalnym narzędziem pracy."
         ],
-        "tags": {
+          "tags": {
           "print": "Systemy druku",
           "net": "Sieci",
           "mon": "Monitoring/Optymalizacja"
@@ -223,9 +228,10 @@
         "date": "01.2022 - 04.2023",
         "loc": "Szczecin",
         "bullets": [
-          "Administracja systemami i siecią, wdrażanie nowych technologii, modernizacja infrastruktury.",
-          "Budowa nowej serwerowni od podstaw, montaż i konfiguracja sprzętu sieciowego.",
-          "Zapewnienie sprawnego działania aplikacji wykorzystywanych przez użytkowników końcowych."
+          "Administracja systemami i infrastrukturą sieciową, obejmująca wdrażanie nowych technologii, modernizację środowiska oraz dbanie o stabilność i bezpieczeństwo narzędzi, z których korzystała cała organizacja na każdym poziomie.",
+          "Budowa nowej serwerowni od podstaw, obejmująca fizyczny montaż, konfigurację i uruchomienie sprzętu sieciowego oraz serwerowego — projekt, który wymagał dokładności, planowania i odpowiedzialności za fundamenty całej infrastruktury firmy.",
+          "Zapewnienie nieprzerwanego działania kluczowych aplikacji i usług, od narzędzi operacyjnych po systemy wspierające pracę użytkowników końcowych, z szybkim reagowaniem na problemy i koncentracją na minimalizowaniu przestojów.",
+          "Bliska współpraca z użytkownikami i zespołami, nastawiona na szybkie rozwiązywanie ich zgłoszeń, wyjaśnianie działania systemów i budowanie środowiska, w którym technologia realnie usprawniała codzienną pracę ludzi."
         ],
         "tags": {
           "servers": "Serwery",
@@ -238,9 +244,10 @@
         "date": "05.2021 - 10.2021",
         "loc": "Szczecin",
         "bullets": [
-          "Konfiguracja i nadzór nad systemami IT oraz administracja infrastrukturą sieciową.",
-          "Wsparcie użytkowników, rozwiązywanie bieżących problemów.",
-          "Zapewnienie stałej dostępności systemów."
+          "Konfiguracja i nadzór nad systemami IT oraz administracja infrastrukturą sieciową, wspierające stabilne funkcjonowanie instytucji i zapewniające bezpieczny przepływ danych w codziennej pracy zespołów.",
+          "Bieżące wsparcie użytkowników w ich codziennych zadaniach, szybkie reagowanie na zgłoszenia i rozwiązywanie problemów technicznych, dzięki czemu technologia stawała się dla pracowników narzędziem, a nie przeszkodą.",
+          "Dbanie o ciągłą dostępność systemów i usług, monitorowanie ich działania oraz szybkie eliminowanie nieprawidłowości, aby minimalizować przestoje i utrzymywać sprawność kluczowych procesów operacyjnych.",
+          "Współpraca z różnymi działami organizacji, pozwalająca lepiej zrozumieć ich potrzeby i dostosowywać rozwiązania IT do sposobu, w jaki faktycznie pracują."
         ],
         "tags": {
           "net": "Sieci",
@@ -252,9 +259,9 @@
         "date": "10.2020 - 05.2021",
         "loc": "Szczecin (sieci handlowe)",
         "bullets": [
-          "Wsparcie IT dla sieci retail: zgłoszenia serwisowe, diagnoza i naprawa sprzętu (POS).",
-          "Konfiguracja sieci i urządzeń, inwentaryzacja zasobów IT.",
-          "Serwis urządzeń fiskalnych - skuteczne rozwiązywanie zróżnicowanych problemów w wielu lokalizacjach."
+          "Wsparcie IT i serwis urządzeń POS w sieciach handlowych, obejmujące diagnozę usterek, naprawę sprzętu oraz szybkie przywracanie ciągłości pracy sprzedaży.",
+          "Konfiguracja sieci, urządzeń i systemów kasowych oraz inwentaryzacja zasobów IT, zapewniająca stabilność i spójność środowiska w wielu lokalizacjach jednocześnie.",
+          "Bezpośrednia współpraca z pracownikami sklepów i kierownictwem, skuteczne rozwiązywanie problemów technicznych w terenie oraz wsparcie użytkowników w codziennych zadaniach."
         ],
         "tags": {
           "pos": "POS/Serwis",
@@ -266,9 +273,9 @@
         "date": "06.2020 - 09.2020",
         "loc": "Szczecin",
         "bullets": [
-          "Serwis i konfiguracja urządzeń drukujących oraz wsparcie sprzętu użytkowników w oddziałach banków.",
-          "Diagnoza problemów na miejscu u klienta i przywracanie ciągłości pracy.",
-          "Przygotowanie, konfiguracja i uruchamianie nowego sprzętu w terenie."
+          "Serwis i konfiguracja urządzeń drukujących oraz wsparcie sprzętu użytkowników w oddziałach banków, zapewniające płynną pracę biur i minimalizujące przestoje.",
+          "Diagnoza problemów na miejscu u klienta i szybkie przywracanie ciągłości pracy, reagowanie na awarie sprzętowe i programowe w środowisku wymagającym wysokiej niezawodności.",
+          "Przygotowanie, konfiguracja i uruchamianie nowego sprzętu w terenie, zapewniające sprawne wdrożenie technologii w wielu lokalizacjach i zgodność z wymaganiami użytkowników końcowych."
         ]
       },
       "eot": {
@@ -276,9 +283,9 @@
         "date": "09.2018 - 03.2019",
         "loc": "Szczecin",
         "bullets": [
-          "Zdalne wsparcie IT dla szpitali i zespołów ratownictwa medycznego.",
-          "Obsługa zgłoszeń: diagnostyka, rozwiązywanie incydentów, eskalacje.",
-          "Konfiguracje i zmiany: stacje robocze, aplikacje medyczne, uprawnienia."
+          "Zdalne wsparcie IT dla szpitali i zespołów ratownictwa medycznego, zapewniające ciągłość działania krytycznych systemów w środowisku o wysokich wymaganiach niezawodności.",
+          "Obsługa zgłoszeń użytkowników, obejmująca diagnostykę problemów, rozwiązywanie incydentów oraz eskalacje do odpowiednich działów w celu szybkiego przywrócenia sprawności systemów.",
+          "Konfiguracja i modyfikacja stacji roboczych, aplikacji medycznych i uprawnień, dbanie o poprawne funkcjonowanie środowiska pracy i bezpieczeństwo danych wrażliwych."
         ]
       }
     }
