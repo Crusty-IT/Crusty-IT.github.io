@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "./static/css/main.d0740bef.css",
-    "main.js": "./static/js/main.6300bd50.js",
+    "main.css": "./static/css/main.f83fc8bb.css",
+    "main.js": "./static/js/main.c2cc0eff.js",
     "static/js/453.653218cb.chunk.js": "./static/js/453.653218cb.chunk.js",
     "static/media/mobile_cook.jpg": "./static/media/mobile_cook.bb6317e08ac22587dc1c.jpg",
     "static/media/mobisalon.jpg": "./static/media/mobisalon.144a4a605aa8476eb88c.jpg",
     "static/media/ksef-master.jpg": "./static/media/ksef-master.8690eb8bdc8e81af4407.jpg",
     "static/media/one_page_animals.jpg": "./static/media/one_page_animals.d755806544ebecba9eda.jpg",
     "index.html": "./index.html",
-    "main.d0740bef.css.map": "./static/css/main.d0740bef.css.map",
-    "main.6300bd50.js.map": "./static/js/main.6300bd50.js.map",
+    "main.f83fc8bb.css.map": "./static/css/main.f83fc8bb.css.map",
+    "main.c2cc0eff.js.map": "./static/js/main.c2cc0eff.js.map",
     "453.653218cb.chunk.js.map": "./static/js/453.653218cb.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d0740bef.css",
-    "static/js/main.6300bd50.js"
+    "static/css/main.f83fc8bb.css",
+    "static/js/main.c2cc0eff.js"
   ]
 }
