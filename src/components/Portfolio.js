@@ -5,6 +5,7 @@ import { useTranslation, Trans } from 'react-i18next';
 
 import mobisalonThumbnail from './assets/mobisalon.jpg';
 import ksefThumbnail from './assets/ksef-master.jpg';
+import smartquoteThumbnail from './assets/smartquote.jpg';
 
 import cookbookThumbnail from './assets/mobile_cook.jpg';
 import animalsThumbnail from './assets/one_page_animals.jpg';
@@ -20,6 +21,20 @@ const Portfolio = () => {
     }, []);
 
     const projects = useMemo(() => ([
+        {
+            id: "smartQuoteAI",
+            image: smartquoteThumbnail,
+            demoLink: 'https://smartquote-ai.netlify.app',
+            githubLink: 'https://github.com/Crusty-IT/SmartQuote-AI',
+            title: t('portfolio.projects.smartQuoteAI.title'),
+            subtitle: t('portfolio.projects.smartQuoteAI.subtitle'),
+            description: t('portfolio.projects.smartQuoteAI.description'),
+            technologies: t('portfolio.projects.smartQuoteAI.tech', { returnObjects: true }),
+            role: t('portfolio.projects.smartQuoteAI.role', { defaultValue: 'WIP' }),
+            year: '2025',
+            caseStudyLink: t('portfolio.projects.smartQuoteAI.case', { defaultValue: '' }) || null,
+            featured: true,
+        },
         {
             id: "ksefMaster",
             image: ksefThumbnail,
@@ -90,6 +105,82 @@ const Portfolio = () => {
                     </p>
                 </header>
 
+                {/* Featured (first) project centered on top, same size as others */}
+                {!isLoading && (() => {
+                    const featured = projects.find(p => p.featured);
+                    return featured ? (
+                        <section className="featured-row" aria-live="polite">
+                            <article
+                                key={featured.id}
+                                className={`project-card ${featured.featured ? 'featured' : ''} animate-slide-up delay-1`}
+                                itemScope
+                                itemType="https://schema.org/CreativeWork"
+                            >
+                                {featured.image && (
+                                    <div className="project-image-wrapper">
+                                        <img
+                                            src={featured.image}
+                                            alt={featured.title}
+                                            className="project-image"
+                                            loading="lazy"
+                                            decoding="async"
+                                        />
+                                        <div className="image-overlay">
+                                            <a
+                                                href={featured.demoLink}
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                                className="overlay-cta"
+                                                aria-label={`${t('portfolio.actions.demo')} — ${featured.title}`}
+                                            >
+                                                <FaExternalLinkAlt /> {t('portfolio.actions.demo')}
+                                            </a>
+                                        </div>
+                                    </div>
+                                )}
+
+                                <div className="project-content">
+                                    <header className="project-header">
+                                        <h3 className="project-heading" itemProp="name">{featured.title}</h3>
+                                        <div className="project-meta">
+                                            {featured.subtitle && <span className="project-subtitle" itemProp="about">{featured.subtitle}</span>}
+                                            {featured.year && (
+                                                <span className="project-chipset">
+                                                    <span className="chip">{featured.year}</span>
+                                                </span>
+                                            )}
+                                        </div>
+                                    </header>
+
+                                    <p className="project-description" itemProp="description">{featured.description}</p>
+
+                                    <div className="project-tech-stack" aria-label={t('portfolio.tech.aria', { defaultValue: 'Technologie' })}>
+                                        {featured.technologies?.map((tech) => (
+                                            <span key={tech} className="tech-badge">{tech}</span>
+                                        ))}
+                                    </div>
+
+                                    <div className="project-links">
+                                        <a href={featured.demoLink} target="_blank" rel="noopener noreferrer" className="project-link">
+                                            <FaExternalLinkAlt /> {t('portfolio.actions.demo')}
+                                        </a>
+                                        {featured.githubLink && (
+                                            <a href={featured.githubLink} target="_blank" rel="noopener noreferrer" className="project-link">
+                                                <FaGithub /> {t('portfolio.actions.code')}
+                                            </a>
+                                        )}
+                                        {featured.caseStudyLink && (
+                                            <a href={featured.caseStudyLink} target="_blank" rel="noopener noreferrer" className="project-link subtle">
+                                                {t('portfolio.actions.case', { defaultValue: 'Case study' })}
+                                            </a>
+                                        )}
+                                    </div>
+                                </div>
+                            </article>
+                        </section>
+                    ) : null;
+                })()}
+
                 <section className="projects-grid" aria-live="polite">
                     {isLoading ? (
                         <>
@@ -107,10 +198,12 @@ const Portfolio = () => {
                             ))}
                         </>
                     ) : (
-                        projects.map((project, index) => (
+                        projects
+                        .filter(p => !p.featured)
+                        .map((project, index) => (
                             <article
                                 key={project.id}
-                                className={`project-card animate-slide-up delay-${index + 1}`}
+                                className={`project-card ${project.featured ? 'featured' : ''} animate-slide-up delay-${index + 1}`}
                                 itemScope
                                 itemType="https://schema.org/CreativeWork"
                             >
@@ -162,9 +255,11 @@ const Portfolio = () => {
                                         <a href={project.demoLink} target="_blank" rel="noopener noreferrer" className="project-link">
                                             <FaExternalLinkAlt /> {t('portfolio.actions.demo')}
                                         </a>
-                                        <a href={project.githubLink} target="_blank" rel="noopener noreferrer" className="project-link">
-                                            <FaGithub /> {t('portfolio.actions.code')}
-                                        </a>
+                                        {project.githubLink && (
+                                            <a href={project.githubLink} target="_blank" rel="noopener noreferrer" className="project-link">
+                                                <FaGithub /> {t('portfolio.actions.code')}
+                                            </a>
+                                        )}
                                         {project.caseStudyLink && (
                                             <a href={project.caseStudyLink} target="_blank" rel="noopener noreferrer" className="project-link subtle">
                                                 {t('portfolio.actions.case', { defaultValue: 'Case study' })}

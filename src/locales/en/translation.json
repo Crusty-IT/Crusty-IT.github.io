@@ -264,8 +264,14 @@
       "code": "Code"
     },
     "projects": {
+      "smartQuoteAI": {
+        "title": "SmartQuote AI - intelligent offer & contract builder (in progress)",
+        "subtitle": "CRM with AI assistant for sales management",
+        "description": "A web app for managing offers, contracts, and customer relationships. An embedded AI assistant (Google Gemini) helps draft offers, analyze clients, and generate professional emails. The system includes an offer builder with VAT calculation, PDF generation, follow-ups with notifications, and a dashboard with statistics. Currently in testing and refinement phase.",
+        "tech": ["Next.js 15", "TypeScript", "Express.js", "PostgreSQL", "Prisma", "Google Gemini AI", "Tailwind CSS", "REST API", "Responsive"]
+      },
       "mobiSalon": {
-        "title": "MobiSalon - one‑page website with CMS",
+        "title": "Mobi Salon - one‑page website with CMS",
         "subtitle": "Marketing site for a grooming salon with News and availability admin panel",
         "description": "A lightweight single‑page website serving as the salon’s online presence and communications hub. I integrated an admin panel (Decap CMS) that lets the owner publish News posts and mark availability dates without developer support. The layout is fully responsive.",
         "tech": ["Next.js", "React", "Decap CMS", "SCSS", "Responsive", "Netlify"]

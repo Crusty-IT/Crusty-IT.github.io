@@ -58,6 +58,18 @@
     margin-top: 24px;
 }
 
+/* Centered single featured card on top, same size as a single grid column */
+.featured-row {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    margin-top: 12px;
+    margin-bottom: 18px; /* match grid gap */
+}
+.featured-row .project-card {
+    width: calc((100% - 18px) / 2); /* equal to one column in the 2-col grid */
+}
+
 .project-card {
     position: relative;
     display: flex;
@@ -231,5 +243,8 @@
 @media (max-width: 1024px) {
     .projects-grid {
         grid-template-columns: 1fr;
+    }
+    .featured-row .project-card {
+        width: 100%;
     }
 }

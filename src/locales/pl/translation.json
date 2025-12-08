@@ -160,8 +160,14 @@
       "code": "Kod"
     },
     "projects": {
+      "smartQuoteAI": {
+        "title": "SmartQuote AI - inteligentny kreator ofert i umów (w trakcie realizacji)",
+        "subtitle": "System CRM z asystentem AI do zarządzania sprzedażą",
+        "description": "Aplikacja webowa do zarządzania ofertami, umowami i relacjami z klientami. Wbudowany asystent AI (Google Gemini) pomaga tworzyć oferty, analizować klientów i generować profesjonalne emaile. System zawiera kreator ofert z kalkulacją VAT, generowanie PDF, follow‑upy z powiadomieniami oraz dashboard ze statystykami. Obecnie w fazie testowania, wprowadzania poprawek i usprawnień.",
+        "tech": ["Next.js 15", "TypeScript", "Express.js", "PostgreSQL", "Prisma", "Google Gemini AI", "Tailwind CSS", "REST API", "RWD"]
+      },
       "mobiSalon": {
-        "title": "MobiSalon - strona one‑page z CMS",
+        "title": "Mobi Salon - strona one‑page z CMS",
         "subtitle": "Witryna dla salonu groomerskiego",
         "description": "Lekka, przejrzysta strona one‑page pełniąca rolę wizytówki i centrum komunikacji z klientami. Zintegrowałem panel administracyjny (Decap CMS), który umożliwia właścicielowi samodzielne publikowanie wpisów w sekcji Aktualności oraz zaznaczanie terminów dostępności. Projekt wykonany w Next.js/React.",
         "tech": ["Next.js", "React", "Decap CMS", "SCSS", "RWD", "Netlify"]
