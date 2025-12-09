@@ -60,16 +60,18 @@
     },
     "facts": {
       "locationTitle": "Lokalizacja",
-      "locationValue": "Stargard, Polska • otwarty na zdalnie/hybrydę",
+      "locationValue": "Stargard, Polska • otwarty na pracę zdalną/hybrydę",
       "statusTitle": "Status zawodowy",
-      "statusValue": "Aktywnie poszukuję roli Junior DevOps / Cloud SysAdmin",
+      "statusValue": "Aktywnie poszukuję stabilnej roli na stałe",
       "languagesTitle": "Języki",
       "languagesValue": "Angielski B2, Niemiecki A1",
       "certsTitle": "Certyfikaty",
       "cert1Name": "PHP Developer (Strefa Kursów, 2025)",
       "cert1Url": "https://raw.githubusercontent.com/Crusty-IT/Crusty-IT.github.io/main/public/certs/cert1.pdf",
       "cert2Name": "GitHub Copilot (Coders Lab, 2025)",
-      "cert2Url":"https://raw.githubusercontent.com/Crusty-IT/Crusty-IT.github.io/main/public/certs/cert2.pdf"
+      "cert2Url":"https://raw.githubusercontent.com/Crusty-IT/Crusty-IT.github.io/main/public/certs/cert2.pdf",
+      "cert3Name": "Podstawy sztucznej inteligencji (Navoica, 2025)",
+      "cert3Url":"https://raw.githubusercontent.com/Crusty-IT/Crusty-IT.github.io/main/public/certs/cert3.pdf"
     },
     "techTitle": "Technologie, które lubię i używam",
     "techChips": {

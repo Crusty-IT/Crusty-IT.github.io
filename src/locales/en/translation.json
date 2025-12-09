@@ -60,16 +60,18 @@
     },
     "facts": {
       "locationTitle": "Location",
-      "locationValue": "Stargard, Poland • open to remote/hybrid",
+      "locationValue": "Stargard, Poland • open to remote work/hybrid",
       "statusTitle": "Professional status",
-      "statusValue": "Actively seeking Junior DevOps / Cloud SysAdmin role",
+      "statusValue": "Actively seeking a stable, long-term role",
       "languagesTitle": "Languages",
       "languagesValue": "English B2, German A1",
       "certsTitle": "Certificates",
       "cert1Name": "PHP Developer (Strefa Kursów, 2025)",
       "cert1Url": "https://raw.githubusercontent.com/Crusty-IT/Crusty-IT.github.io/main/public/certs/cert1.pdf",
       "cert2Name": "GitHub Copilot (Coders Lab, 2025)",
-      "cert2Url":"https://raw.githubusercontent.com/Crusty-IT/Crusty-IT.github.io/main/public/certs/cert2.pdf"
+      "cert2Url":"https://raw.githubusercontent.com/Crusty-IT/Crusty-IT.github.io/main/public/certs/cert2.pdf",
+      "cert3Name": "Basics of artificial intelligence (Navoica, 2025)",
+      "cert3Url":"https://raw.githubusercontent.com/Crusty-IT/Crusty-IT.github.io/main/public/certs/cert3.pdf"
     },
     "techTitle": "Technologies I like and use",
     "techChips": {
