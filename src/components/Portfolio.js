@@ -25,7 +25,7 @@ const Portfolio = () => {
         {
             id: "postlio",
             image: null,
-            demoLink: null,
+            demoLink: 'https://postlio.netlify.app/',
             githubLink: null,
             title: t('portfolio.projects.postlio.title'),
             subtitle: t('portfolio.projects.postlio.subtitle'),
@@ -39,7 +39,7 @@ const Portfolio = () => {
             id: "smartQuoteAI",
             image: smartquoteThumbnail,
             demoLink: 'https://smartquote-ai.netlify.app',
-            githubLink: null, // usunięty przycisk "Kod" dla tego projektu
+            githubLink: null,
             title: t('portfolio.projects.smartQuoteAI.title'),
             subtitle: t('portfolio.projects.smartQuoteAI.subtitle'),
             description: t('portfolio.projects.smartQuoteAI.description'),
