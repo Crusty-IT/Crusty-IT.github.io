@@ -158,7 +158,7 @@
     "title": "Portfolio",
     "subtitleHtml": "Moje publiczne portfolio jest obecnie skromne, ponieważ większość dotychczasowych realizacji powstawała na rzecz pracodawców i pozostaje objęta ograniczeniami w udostępnianiu. Równolegle tworzę serię autorskich projektów demonstracyjnych - wkrótce pojawią się tutaj nowe pozycje. Wszystkie, w tym także mniejsze i eksperymentalne prace, publikuję na <link>GitHubie</link>.",
     "actions": {
-      "demo": "Zobacz Demo",
+      "demo": "Zobacz",
       "code": "Kod"
     },
     "projects": {
@@ -166,7 +166,13 @@
         "title": "SmartQuote AI - inteligentny kreator ofert i umów (w trakcie realizacji)",
         "subtitle": "System CRM z asystentem AI do zarządzania sprzedażą",
         "description": "Aplikacja webowa do zarządzania ofertami, umowami i relacjami z klientami. Wbudowany asystent AI (Google Gemini) pomaga tworzyć oferty, analizować klientów i generować profesjonalne emaile. System zawiera kreator ofert z kalkulacją VAT, generowanie PDF, follow‑upy z powiadomieniami oraz dashboard ze statystykami. Obecnie w fazie testowania, wprowadzania poprawek i usprawnień.",
-        "tech": ["Next.js 15", "TypeScript", "Express.js", "PostgreSQL", "Prisma", "Google Gemini AI", "Tailwind CSS", "REST API", "RWD"]
+        "tech": ["Next.js", "TypeScript", "Express.js", "PostgreSQL", "Prisma", "Google Gemini AI", "Tailwind CSS", "REST API", "RWD"]
+      },
+      "postlio": {
+        "title": "Inteligentny Asystent Social Media",
+        "subtitle": "Twórz, planuj i publikuj posty na FB, IG i LinkedIn z pomocą AI",
+        "description": "Postlio to nowoczesna aplikacja webowa typu PWA, która wspiera małe firmy i twórców w profesjonalnym zarządzaniu obecnością w mediach społecznościowych. Aplikacja umożliwia tworzenie, planowanie i automatyczną publikację treści na platformach Facebook, Instagram oraz LinkedIn. Sercem systemu jest inteligentny Agent AI, który generuje angażujące posty dostosowane do specyfiki każdej platformy, tworzy grafiki oraz proponuje optymalne harmonogramy publikacji. Interfejs został zaprojektowany w podejściu mobile-first, zapewniając pełną funkcjonalność zarówno na urządzeniach mobilnych, jak i desktopowych.\n\nProjekt w fazie początkowej realizacji",
+        "tech": ["Next.js", "TypeScript", "TailwindCSS", "PWA", "PostgreSQL", "Python", "Netlify", "Render"]
       },
       "mobiSalon": {
         "title": "Mobi Salon - strona one‑page z CMS",
@@ -175,10 +181,10 @@
         "tech": ["Next.js", "React", "Decap CMS", "SCSS", "RWD", "Netlify"]
       },
       "ksefMaster": {
-        "title": "KSeF Master - narzędzie dla księgowości (w trakcie realizacji)",
+        "title": "KSeF Master - narzędzie dla księgowości",
         "subtitle": "Integracja z KSeF: pobieranie i wystawianie faktur",
-        "description": "Przeglądarkowa aplikacja wspierająca obsługę e‑faktur. W pierwszym etapie powstają funkcje pobierania oraz wystawiania faktur poprzez oficjalne API KSeF. Prace nad KSeF są spowolnione przez jego złożoność, trudne API i ciągłe zmiany. Z tego powodu przesunąłem priorytet na inny projekt. Obecnie, w wolnym tempie, tworzę backend na osobnym serwerze.",
-        "tech": ["React", "JavaScript", "REST API", "KSeF", "Netlify", "RWD"]
+        "description": "KSeF Master to profesjonalna aplikacja przeglądarkowa, która kompleksowo wspiera zarządzanie Krajowym Systemem E-Faktur. Umożliwia sprawne tworzenie i wysyłanie faktur do KSeF, a także ich odbieranie. System efektywnie zarządza bazą klientów i dodatkowo generuje faktury w formacie PDF zgodnym z oficjalnym schematem. Opracowany przeze mnie backend został zbudowany specjalnie w celu obsługi i przetwarzania złożonego API KSeF, zapewniając stabilną i niezawodną komunikację z systemem.",
+        "tech": ["React", "JavaScript", "REST API", "KSeF", "Netlify", "C# .NET", "Render", "Vite"]
       },
       "pwaCookbook": {
         "title": "Mobilna Książka Kucharska (PWA)",

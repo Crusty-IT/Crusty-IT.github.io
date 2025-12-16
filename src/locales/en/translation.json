@@ -262,7 +262,7 @@
     "title": "Portfolio",
     "subtitleHtml": "My public portfolio is modest for now, as most of my past work was done for employers and cannot be shared openly. In parallel, I’m building a series of demo projects - new items will appear here soon. I publish everything, including smaller and experimental works, on <link>GitHub</link>.",
     "actions": {
-      "demo": "View Demo",
+      "demo": "View",
       "code": "Code"
     },
     "projects": {
@@ -271,6 +271,12 @@
         "subtitle": "CRM with AI assistant for sales management",
         "description": "A web app for managing offers, contracts, and customer relationships. An embedded AI assistant (Google Gemini) helps draft offers, analyze clients, and generate professional emails. The system includes an offer builder with VAT calculation, PDF generation, follow-ups with notifications, and a dashboard with statistics. Currently in testing and refinement phase.",
         "tech": ["Next.js 15", "TypeScript", "Express.js", "PostgreSQL", "Prisma", "Google Gemini AI", "Tailwind CSS", "REST API", "Responsive"]
+      },
+      "postlio": {
+        "title": "Intelligent Social Media Assistant",
+        "subtitle": "Create, schedule and publish posts to FB, IG and LinkedIn with AI",
+        "description": "Postlio is a modern Progressive Web App (PWA) that helps small businesses and creators professionally manage their social media presence. The app enables creating, scheduling and automatic publishing of content to Facebook, Instagram and LinkedIn. At its core is an intelligent AI Agent that generates engaging posts tailored to each platform, creates visuals and suggests optimal publishing schedules. The interface is designed mobile‑first, providing full functionality on both mobile and desktop.\n\nProject in early development phase",
+        "tech": ["Next.js 14", "TypeScript", "TailwindCSS", "PWA", "PostgreSQL", "Python", "Netlify", "Render"]
       },
       "mobiSalon": {
         "title": "Mobi Salon - one‑page website with CMS",
@@ -281,8 +287,8 @@
       "ksefMaster": {
         "title": "KSeF Master - accounting tool (in development)",
         "subtitle": "KSeF integration: fetch and create invoices",
-        "description": "A browser‑based app to support e‑invoicing workflows. Phase one covers fetching and creating invoices via the official KSeF API. KSeF progress is slowed by its complexity, difficult API, and constant changes. Due to this, I shifted priority to another project. I am currently building the backend on a separate server at a slow pace.",
-        "tech": ["React", "JavaScript", "REST API", "KSeF", "Netlify", "Responsive"]
+        "description": "KSeF Master is a professional browser-based application that comprehensively supports the management of the National E-Invoicing System (KSeF). It enables the efficient creation and submission of invoices to KSeF, as well as their retrieval. The system effectively manages the client database and additionally generates invoices in a PDF format compliant with the official scheme. The backend, developed by me, was specifically built to handle and process the complex KSeF API, ensuring stable and reliable communication with the system.",
+        "tech": ["React", "JavaScript", "REST API", "KSeF", "Netlify", "C# .NET", "Render", "Vite"]
       },
       "pwaCookbook": {
         "title": "Mobile Cookbook (PWA)",
