@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "./static/css/main.4230afd2.css",
-    "main.js": "./static/js/main.a085c6d1.js",
+    "main.css": "./static/css/main.b4110dbd.css",
+    "main.js": "./static/js/main.8098e940.js",
     "static/js/453.e720efd9.chunk.js": "./static/js/453.e720efd9.chunk.js",
     "static/media/mobile_cook.jpg": "./static/media/mobile_cook.bb6317e08ac22587dc1c.jpg",
     "static/media/mobisalon.jpg": "./static/media/mobisalon.144a4a605aa8476eb88c.jpg",
@@ -9,12 +9,12 @@
     "static/media/ksef-master.jpg": "./static/media/ksef-master.8690eb8bdc8e81af4407.jpg",
     "static/media/one_page_animals.jpg": "./static/media/one_page_animals.d755806544ebecba9eda.jpg",
     "index.html": "./index.html",
-    "main.4230afd2.css.map": "./static/css/main.4230afd2.css.map",
-    "main.a085c6d1.js.map": "./static/js/main.a085c6d1.js.map",
+    "main.b4110dbd.css.map": "./static/css/main.b4110dbd.css.map",
+    "main.8098e940.js.map": "./static/js/main.8098e940.js.map",
     "453.e720efd9.chunk.js.map": "./static/js/453.e720efd9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4230afd2.css",
-    "static/js/main.a085c6d1.js"
+    "static/css/main.b4110dbd.css",
+    "static/js/main.8098e940.js"
   ]
 }
