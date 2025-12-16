@@ -267,7 +267,7 @@
     },
     "projects": {
       "smartQuoteAI": {
-        "title": "SmartQuote AI - intelligent offer & contract builder (avaiable in beta version)",
+        "title": "SmartQuote AI - intelligent offer & contract builder (available in beta version)",
         "subtitle": "CRM with AI assistant for sales management",
         "description": "A web app for managing offers, contracts, and customer relationships. An embedded AI assistant (Google Gemini) helps draft offers, analyze clients, and generate professional emails. The system includes an offer builder with VAT calculation, PDF generation, follow-ups with notifications, and a dashboard with statistics. Currently in testing and refinement phase.",
         "tech": ["Next.js 15", "TypeScript", "Express.js", "PostgreSQL", "Prisma", "Google Gemini AI", "Tailwind CSS", "REST API", "Responsive"]
