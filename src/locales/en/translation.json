@@ -267,13 +267,13 @@
     },
     "projects": {
       "smartQuoteAI": {
-        "title": "SmartQuote AI - intelligent offer & contract builder (in progress)",
+        "title": "SmartQuote AI - intelligent offer & contract builder (avaiable in beta version)",
         "subtitle": "CRM with AI assistant for sales management",
         "description": "A web app for managing offers, contracts, and customer relationships. An embedded AI assistant (Google Gemini) helps draft offers, analyze clients, and generate professional emails. The system includes an offer builder with VAT calculation, PDF generation, follow-ups with notifications, and a dashboard with statistics. Currently in testing and refinement phase.",
         "tech": ["Next.js 15", "TypeScript", "Express.js", "PostgreSQL", "Prisma", "Google Gemini AI", "Tailwind CSS", "REST API", "Responsive"]
       },
       "postlio": {
-        "title": "Intelligent Social Media Assistant",
+        "title": "Intelligent Social Media Assistant (work has started)",
         "subtitle": "Create, schedule and publish posts to FB, IG and LinkedIn with AI",
         "description": "Postlio is a modern Progressive Web App (PWA) that helps small businesses and creators professionally manage their social media presence. The app enables creating, scheduling and automatic publishing of content to Facebook, Instagram and LinkedIn. At its core is an intelligent AI Agent that generates engaging posts tailored to each platform, creates visuals and suggests optimal publishing schedules. The interface is designed mobile‑first, providing full functionality on both mobile and desktop.\n\nProject in early development phase",
         "tech": ["Next.js 14", "TypeScript", "TailwindCSS", "PWA", "PostgreSQL", "Python", "Netlify", "Render"]

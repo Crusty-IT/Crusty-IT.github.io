@@ -163,13 +163,13 @@
     },
     "projects": {
       "smartQuoteAI": {
-        "title": "SmartQuote AI - inteligentny kreator ofert i umów (w trakcie realizacji)",
+        "title": "SmartQuote AI - inteligentny kreator ofert i umów (dostępny w wersji beta)",
         "subtitle": "System CRM z asystentem AI do zarządzania sprzedażą",
         "description": "Aplikacja webowa do zarządzania ofertami, umowami i relacjami z klientami. Wbudowany asystent AI (Google Gemini) pomaga tworzyć oferty, analizować klientów i generować profesjonalne emaile. System zawiera kreator ofert z kalkulacją VAT, generowanie PDF, follow‑upy z powiadomieniami oraz dashboard ze statystykami. Obecnie w fazie testowania, wprowadzania poprawek i usprawnień.",
         "tech": ["Next.js", "TypeScript", "Express.js", "PostgreSQL", "Prisma", "Google Gemini AI", "Tailwind CSS", "REST API", "RWD"]
       },
       "postlio": {
-        "title": "Inteligentny Asystent Social Media",
+        "title": "Inteligentny Asystent Social Media (rozpoczęto prace)",
         "subtitle": "Twórz, planuj i publikuj posty na FB, IG i LinkedIn z pomocą AI",
         "description": "Postlio to nowoczesna aplikacja webowa typu PWA, która wspiera małe firmy i twórców w profesjonalnym zarządzaniu obecnością w mediach społecznościowych. Aplikacja umożliwia tworzenie, planowanie i automatyczną publikację treści na platformach Facebook, Instagram oraz LinkedIn. Sercem systemu jest inteligentny Agent AI, który generuje angażujące posty dostosowane do specyfiki każdej platformy, tworzy grafiki oraz proponuje optymalne harmonogramy publikacji. Interfejs został zaprojektowany w podejściu mobile-first, zapewniając pełną funkcjonalność zarówno na urządzeniach mobilnych, jak i desktopowych.\n\nProjekt w fazie początkowej realizacji",
         "tech": ["Next.js", "TypeScript", "TailwindCSS", "PWA", "PostgreSQL", "Python", "Netlify", "Render"]
