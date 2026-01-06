@@ -8,8 +8,8 @@ import {
     FaEnvelope,
     FaGithub,
     FaLinkedin,
-    FaCodeBranch,
     FaWindows,
+    FaGraduationCap,
 } from "react-icons/fa";
 import {
     SiLinux,
@@ -166,6 +166,21 @@ const About = () => {
                             <div>
                                 <h4>{t("about.facts.languagesTitle")}</h4>
                                 <p>{t("about.facts.languagesValue")}</p>
+                            </div>
+                        </div>
+                        <div className="about__fact">
+                            <FaGraduationCap />
+                            <div>
+                                <h4>{t("about.facts.educationTitle")}</h4>
+                                <p>
+                                    <a
+                                        href={t("about.facts.educationUrl")}
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                    >
+                                        {t("about.facts.educationValue")}
+                                    </a>
+                                </p>
                             </div>
                         </div>
                         <div>
