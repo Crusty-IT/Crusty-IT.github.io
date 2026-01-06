@@ -71,7 +71,9 @@
       "cert2Name": "GitHub Copilot (Coders Lab, 2025)",
       "cert2Url":"https://raw.githubusercontent.com/Crusty-IT/Crusty-IT.github.io/main/public/certs/cert2.pdf",
       "cert3Name": "Podstawy sztucznej inteligencji (Navoica, 2025)",
-      "cert3Url":"https://raw.githubusercontent.com/Crusty-IT/Crusty-IT.github.io/main/public/certs/cert3.pdf"
+      "cert3Url":"https://raw.githubusercontent.com/Crusty-IT/Crusty-IT.github.io/main/public/certs/cert3.pdf",
+      "cert4Name": "Zastosowanie UML obszarze informacji geograficznej",
+      "cert4Url":"https://raw.githubusercontent.com/Crusty-IT/Crusty-IT.github.io/main/public/certs/cert5.pdf"
     },
     "techTitle": "Technologie, które lubię i używam",
     "techChips": {
