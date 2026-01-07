@@ -67,7 +67,7 @@
       "languagesValue": "Angielski B2, Niemiecki A1",
       "educationTitle": "Wykształcenie",
       "educationValue": "Zachodniopomorska Szkoła Biznesu - Informatyka - Aplikacje Mobilne",
-      "educationUrl": "https://raw.githubusercontent.com/Crusty-IT/Crusty-IT.github.io/main/public/certs/school_pl.pdf",
+      "educationUrl": "https://raw.githubusercontent.com/Crusty-IT/Crusty-IT.github.io/main/public/certs/school.pdf",
       "certsTitle": "Certyfikaty",
       "cert1Name": "PHP Developer (Strefa Kursów, 2025)",
       "cert1Url": "https://raw.githubusercontent.com/Crusty-IT/Crusty-IT.github.io/main/public/certs/cert1.pdf",
@@ -75,7 +75,7 @@
       "cert2Url":"https://raw.githubusercontent.com/Crusty-IT/Crusty-IT.github.io/main/public/certs/cert2.pdf",
       "cert3Name": "Podstawy sztucznej inteligencji (Navoica, 2025)",
       "cert3Url":"https://raw.githubusercontent.com/Crusty-IT/Crusty-IT.github.io/main/public/certs/cert3.pdf",
-      "cert4Name": "Zastosowanie UML obszarze informacji geograficznej",
+      "cert4Name": "Zastosowanie UML obszarze informacji geograficznej (Navoica, 2026)",
       "cert4Url":"https://raw.githubusercontent.com/Crusty-IT/Crusty-IT.github.io/main/public/certs/cert5.pdf"
     },
     "techTitle": "Technologie, które lubię i używam",
