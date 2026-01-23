@@ -222,6 +222,15 @@ const About = () => {
                                         {t("about.facts.cert4Name")}
                                     </a>
                                 </li>
+                                <li>
+                                    <a
+                                        href={t("about.facts.cert5Url")}
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                    >
+                                        {t("about.facts.cert5Name")}
+                                    </a>
+                                </li>
                             </ul>
                         </div>
                         <div className="about__rings-block">

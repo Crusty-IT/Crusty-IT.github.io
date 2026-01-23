@@ -76,7 +76,9 @@
       "cert3Name": "Podstawy sztucznej inteligencji (Navoica, 2025)",
       "cert3Url":"https://raw.githubusercontent.com/Crusty-IT/Crusty-IT.github.io/main/public/certs/cert3.pdf",
       "cert4Name": "Zastosowanie UML obszarze informacji geograficznej (Navoica, 2026)",
-      "cert4Url":"https://raw.githubusercontent.com/Crusty-IT/Crusty-IT.github.io/main/public/certs/cert5.pdf"
+      "cert4Url":"https://raw.githubusercontent.com/Crusty-IT/Crusty-IT.github.io/main/public/certs/cert5.pdf",
+      "cert5Name": "Python - Programming (Navoica, 2026)",
+      "cert5Url": "https://raw.githubusercontent.com/Crusty-IT/Crusty-IT.github.io/main/public/certs/cert7.pdf"
     },
     "techTitle": "Technologie, które lubię i używam",
     "techChips": {
