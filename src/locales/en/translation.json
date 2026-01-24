@@ -282,7 +282,7 @@
       "postlio": {
         "title": "Intelligent Social Media Assistant (work has started)",
         "subtitle": "Create, schedule and publish posts to FB, IG and LinkedIn with AI",
-        "description": "Postlio is a modern PWA that supports social media management. It allows for the creation and scheduling of posts and graphics with the support of various types of AI Agents, depending on needs. The system enables full automation of publishing according to a schedule for business accounts (Facebook Pages, Instagram Business, and LinkedIn). For personal profiles, due to platform regulations, the application is used for professional content preparation for manual sharing.\n\nThe project is currently deployed for testing purposes. We are constantly working on improving features and streamlining the application to ensure the highest quality of service.",
+        "description": "Postlio is a modern PWA that supports social media management. It allows for the creation and scheduling of posts and graphics with the support of various types of AI Agents, depending on needs. The system enables full automation of publishing according to a schedule for business accounts (Facebook Pages, Instagram Business, and LinkedIn). For personal profiles, due to platform regulations, the application is used for professional content preparation for manual sharing.\n\nThe project is currently deployed for testing purposes. I am working on improving features and streamlining the application to ensure the highest quality of service.",
         "tech": ["Next.js 14", "TypeScript", "TailwindCSS", "PWA", "PostgreSQL", "Python", "Netlify", "Render"]
       },
       "mobiSalon": {
