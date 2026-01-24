@@ -6,7 +6,7 @@ import { useTranslation, Trans } from 'react-i18next';
 import mobisalonThumbnail from './assets/mobisalon.jpg';
 import ksefThumbnail from './assets/ksef-master.jpg';
 import smartquoteThumbnail from './assets/smartquote.jpg';
-
+import postlioThumbnail from './assets/postlio.jpg';
 import cookbookThumbnail from './assets/mobile_cook.jpg';
 import animalsThumbnail from './assets/one_page_animals.jpg';
 
@@ -24,7 +24,7 @@ const Portfolio = () => {
 
         {
             id: "postlio",
-            image: null,
+            image: postlioThumbnail,
             demoLink: 'https://postlio.netlify.app/',
             githubLink: null,
             title: t('portfolio.projects.postlio.title'),
@@ -32,7 +32,7 @@ const Portfolio = () => {
             description: t('portfolio.projects.postlio.description'),
             technologies: t('portfolio.projects.postlio.tech', { returnObjects: true }),
             role: t('portfolio.projects.postlio.role', { defaultValue: 'Developer' }),
-            year: '2025',
+            year: '2026',
             caseStudyLink: t('portfolio.projects.postlio.case', { defaultValue: '' }) || null,
         },
         {

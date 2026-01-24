@@ -178,7 +178,7 @@
       "postlio": {
         "title": "Inteligentny Asystent Social Media (rozpoczęto prace)",
         "subtitle": "Twórz, planuj i publikuj posty na FB, IG i LinkedIn z pomocą AI",
-        "description": "Postlio to nowoczesna aplikacja webowa typu PWA, która wspiera małe firmy i twórców w profesjonalnym zarządzaniu obecnością w mediach społecznościowych. Aplikacja umożliwia tworzenie, planowanie i automatyczną publikację treści na platformach Facebook, Instagram oraz LinkedIn. Sercem systemu jest inteligentny Agent AI, który generuje angażujące posty dostosowane do specyfiki każdej platformy, tworzy grafiki oraz proponuje optymalne harmonogramy publikacji. Interfejs został zaprojektowany w podejściu mobile-first, zapewniając pełną funkcjonalność zarówno na urządzeniach mobilnych, jak i desktopowych.\n\nProjekt w fazie początkowej realizacji",
+        "description": "Postlio to nowoczesna aplikacja PWA wspomagająca zarządzanie mediami społecznościowymi. Pozwala na tworzenie i planowanie postów oraz grafik przy wsparciu, w zależności od potrzeb różnego typu Agentów AI. System umożliwia pełną automatyzację publikacji zgodnie z harmonogramem dla kont firmowych (Facebook Pages, Instagram Business oraz LinkedIn). W przypadku profili osobistych, ze względu na regulaminy platform, aplikacja służy do profesjonalnego przygotowania treści do samodzielnego udostępnienia.\n\nProjekt jest obecnie wdrożony w celach testowych. Nieustannie pracujemy nad ulepszaniem funkcji oraz usprawnianiem działania aplikacji, aby zapewnić najwyższą jakość obsługi.",
         "tech": ["Next.js", "TypeScript", "TailwindCSS", "PWA", "PostgreSQL", "Python", "Netlify", "Render"]
       },
       "mobiSalon": {
