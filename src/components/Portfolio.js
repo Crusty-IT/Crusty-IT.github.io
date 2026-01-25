@@ -45,7 +45,7 @@ const Portfolio = () => {
             description: t('portfolio.projects.smartQuoteAI.description'),
             technologies: t('portfolio.projects.smartQuoteAI.tech', { returnObjects: true }),
             role: t('portfolio.projects.smartQuoteAI.role', { defaultValue: 'WIP' }),
-            year: '2025',
+            year: '2026',
             caseStudyLink: t('portfolio.projects.smartQuoteAI.case', { defaultValue: '' }) || null,
         },
         {
@@ -58,7 +58,7 @@ const Portfolio = () => {
             description: t('portfolio.projects.ksefMaster.description'),
             technologies: t('portfolio.projects.ksefMaster.tech', { returnObjects: true }),
             role: t('portfolio.projects.ksefMaster.role', { defaultValue: 'WIP' }),
-            year: '2025',
+            year: '2026',
             caseStudyLink: t('portfolio.projects.ksefMaster.case', { defaultValue: '' }) || null,
         },
         {
