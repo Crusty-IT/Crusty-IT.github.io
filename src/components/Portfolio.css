@@ -105,9 +105,14 @@
     object-fit: cover;
     display: block;
 }
+.project-image-wrapper.contain {
+    aspect-ratio: auto;
+}
 .project-image.contain {
     object-fit: contain;
-    background: #000; /* Dodanie tła dla wypełnienia pustych miejsc przy contain */
+    width: 100%;
+    height: auto;
+    background: transparent;
 }
 .image-overlay {
     position: absolute;

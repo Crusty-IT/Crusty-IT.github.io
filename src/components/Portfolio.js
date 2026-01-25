@@ -147,7 +147,7 @@ const Portfolio = () => {
                                 itemType="https://schema.org/CreativeWork"
                             >
                                 {project.image && (
-                                    <div className="project-image-wrapper">
+                                    <div className={`project-image-wrapper ${project.imageFit === 'contain' ? 'contain' : ''}`}>
                                         <img
                                             src={project.image}
                                             alt={project.title}
