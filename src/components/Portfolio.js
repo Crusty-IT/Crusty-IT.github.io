@@ -38,7 +38,6 @@ const Portfolio = () => {
         {
             id: "smartQuoteAI",
             image: smartquoteThumbnail,
-            imageFit: 'contain',
             demoLink: 'https://smartquote-ai.netlify.app',
             githubLink: null,
             title: t('portfolio.projects.smartQuoteAI.title'),
@@ -147,11 +146,11 @@ const Portfolio = () => {
                                 itemType="https://schema.org/CreativeWork"
                             >
                                 {project.image && (
-                                    <div className={`project-image-wrapper ${project.imageFit === 'contain' ? 'contain' : ''}`}>
+                                    <div className="project-image-wrapper">
                                         <img
                                             src={project.image}
                                             alt={project.title}
-                                            className={`project-image ${project.imageFit === 'contain' ? 'contain' : ''}`}
+                                            className="project-image"
                                             loading="lazy"
                                             decoding="async"
                                         />
