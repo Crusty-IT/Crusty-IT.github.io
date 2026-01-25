@@ -105,6 +105,10 @@
     object-fit: cover;
     display: block;
 }
+.project-image.contain {
+    object-fit: contain;
+    background: #000; /* Dodanie tła dla wypełnienia pustych miejsc przy contain */
+}
 .image-overlay {
     position: absolute;
     inset: 0;

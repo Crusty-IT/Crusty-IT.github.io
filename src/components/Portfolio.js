@@ -38,6 +38,7 @@ const Portfolio = () => {
         {
             id: "smartQuoteAI",
             image: smartquoteThumbnail,
+            imageFit: 'contain',
             demoLink: 'https://smartquote-ai.netlify.app',
             githubLink: null,
             title: t('portfolio.projects.smartQuoteAI.title'),
@@ -150,7 +151,7 @@ const Portfolio = () => {
                                         <img
                                             src={project.image}
                                             alt={project.title}
-                                            className="project-image"
+                                            className={`project-image ${project.imageFit === 'contain' ? 'contain' : ''}`}
                                             loading="lazy"
                                             decoding="async"
                                         />
