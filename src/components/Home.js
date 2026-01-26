@@ -5,7 +5,7 @@ import { HashLink } from 'react-router-hash-link';
 import { useTranslation } from "react-i18next";
 
 
-const AVATAR = "https://raw.githubusercontent.com/shellupski/Moja-strona/main/images/logo_vertical.svg";
+const AVATAR = "https://raw.githubusercontent.com/shellupski/Moja-strona/main/images/logo_vertical.png";
 
 const ROLES_PL = [
     "Specjalista IT",
