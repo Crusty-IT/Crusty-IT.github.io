@@ -227,7 +227,7 @@ export default function Home() {
 
                         <a
                             className="chip"
-                            href="https://crusty-it.github.io"
+                            href="https://github.com/Crusty-IT"
                             target="_blank"
                             rel="noreferrer"
                             aria-label={t("home.contact.githubAria")}
@@ -238,7 +238,7 @@ export default function Home() {
                                     d="M12 2a10 10 0 0 0-3.16 19.49c.5.09.68-.22.68-.48 0-.24-.01-.87-.01-1.7-2.78.6-3.37-1.34-3.37-1.34-.46-1.17-1.12-1.48-1.12-1.48-.92-.62.07-.6.07-.6 1.02.07 1.56 1.05 1.56 1.05 .91 1.56 2.39 1.11 2.97.85.09-.66.36-1.11.65-1.37-2.22-.25-4.56-1.11-4.56-4.95 0-1.09.39-1.98 1.03-2.68-.1-.25-.45-1.27.1-2.65 0 0 .84-.27 2.75 1.02A9.57 9.57 0 0 1 12 6.84c.85 0 1.7.11 2.5.32 1.9-1.29 2.74-1.02 2.74-1.02 .55 1.38.2 2.4.1 2.65.64.7 1.02 1.59 1.02 2.68 0 3.85-2.34 4.7-4.57 4.95.37.32.69.94.69 1.9 0 1.37-.01 2.47-.01 2.8 0 .26.18.57.69.47A10 10 0 0 0 12 2Z"
                                 />
                             </svg>
-                            <span>https://crusty-it.github.io</span>
+                            <span>GitHub</span>
                         </a>
                     </div>
                 </div>
@@ -246,7 +246,6 @@ export default function Home() {
                 <div className="hero-visual">
                     <div className="visual-orb" aria-hidden="true" />
                     <div className="visual-card glass">
-                        <div className="badge">{t("home.badgeCity")}</div>
                         {AVATAR ? (
                             <img className="avatar" src={AVATAR} alt="Avatar" />
                         ) : (

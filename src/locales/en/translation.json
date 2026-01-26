@@ -20,7 +20,6 @@
       "projects": { "num": "5+", "label": "side projects (CMS, PWA)" },
       "english": { "num": "B2", "label": "English" }
     },
-    "badgeCity": "Stargard, PL",
     "caption": "Stability • Automation • Security",
     "scroll": {
       "aria": "Scroll to About section",

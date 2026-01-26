@@ -20,7 +20,6 @@
       "projects": { "num": "5+", "label": "projekty własne (CMS, PWA)" },
       "english": { "num": "B2", "label": "angielski" }
     },
-    "badgeCity": "Stargard, PL",
     "caption": "Wszechstronność • Stabilność • Bezpieczeństwo",
     "scroll": {
       "aria": "Przewiń do sekcji About",

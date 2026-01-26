@@ -300,31 +300,6 @@
     box-shadow: 0 14px 44px rgba(0, 0, 0, 0.25);
 }
 
-.visual-card {
-    position: relative;
-    padding: 20px 20px 16px;
-    width: clamp(260px, 36vw, 340px);
-    text-align: center;
-    transform: perspective(800px) rotateY(-6deg) rotateX(2deg);
-    transition: transform 0.5s cubic-bezier(0.2, 0.65, 0.2, 1);
-    background-color: rgba(20, 32, 50, 0.7);
-    border: 1px solid rgba(255, 255, 255, 0.12);
-    border-radius: 24px;
-    backdrop-filter: blur(16px);
-    -webkit-backdrop-filter: blur(16px);
-    box-shadow: 0 14px 44px rgba(0, 0, 0, 0.25);
-}
-
-.avatar {
-    width: 100%;
-    aspect-ratio: 1 / 1;
-    display: block;
-    object-fit: cover;
-    border-radius: 16px;
-    border: 1px solid rgba(255, 255, 255, 0.15);
-    box-shadow: 0 14px 36px rgba(0, 0, 0, 0.3);
-}
-
 .visual-card:hover {
     transform: perspective(900px) rotateY(0) rotateX(0) translateY(-6px);
 }
@@ -340,6 +315,15 @@
     background-color: rgba(12, 192, 255, 0.15);
     border: 1px solid rgba(12, 192, 255, 0.35);
     border-radius: 999px;
+}
+
+.avatar {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    border-radius: 16px;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    box-shadow: 0 14px 36px rgba(0, 0, 0, 0.3);
 }
 
 .avatar.placeholder {
