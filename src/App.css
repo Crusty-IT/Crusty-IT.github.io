@@ -1,23 +1,57 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+:root {
+    --color-bg: #0d1520;
 
-  background-color: #0b0f19;
-  background-image:
-          radial-gradient(at 80% 20%, hsla(212, 80%, 50%, 0.25) 0px, transparent 50%),
-          radial-gradient(at 20% 90%, hsla(280, 75%, 55%, 0.25) 0px, transparent 50%);
+    --color-royal: #0062b0;
+    --color-royal-soft: rgba(0, 98, 176, 0.15);
+    --color-sky: #0cc0ff;
+    --color-sky-soft: rgba(12, 192, 255, 0.12);
+    --color-accent: #60a5fa;
 
-  /* Zmiana 1: Dodaj to, aby tło się nie powtarzało */
-  background-repeat: no-repeat;
+    --color-text: #f1f5f9;
+    --color-text-secondary: #cbd5e1;
+    --color-text-muted: #94a3b8;
 
-  color: #e0e0e0;
+    --glass-bg: rgba(20, 30, 45, 0.85);
+    --glass-border: rgba(255, 255, 255, 0.12);
+    --glass-blur: 16px;
+
+    --shadow-sm: 0 4px 12px rgba(0, 0, 0, 0.15);
+    --shadow-md: 0 8px 24px rgba(0, 0, 0, 0.2);
+    --shadow-lg: 0 16px 48px rgba(0, 0, 0, 0.25);
+
+    --radius-sm: 10px;
+    --radius-md: 14px;
+    --radius-lg: 18px;
+    --radius-xl: 24px;
+    --radius-full: 999px;
+
+    --transition-fast: 150ms ease;
+    --transition-base: 250ms ease;
+    --transition-slow: 400ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-/* Zmiana 2: Upewnij się, że główny kontener aplikacji ma odpowiednią wysokość */
+html {
+    background-color: var(--color-bg);
+}
+
+body {
+    margin: 0;
+    background-color: var(--color-bg);
+    color: var(--color-text);
+    min-height: 100vh;
+}
+
 #root {
-  min-height: 100vh;
+    min-height: 100vh;
+    background-color: var(--color-bg);
 }
 
 .main-content {
-  padding-top: 100px;
+    padding-top: 80px;
+}
+
+@media (max-width: 768px) {
+    .main-content {
+        padding-top: 70px;
+    }
 }
