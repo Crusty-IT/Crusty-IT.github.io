@@ -74,12 +74,14 @@ export default function Contact() {
   return (
     <section className="contact-section" id="contact">
       <div className="contact-card">
-        <div className="contact-header">
-          <h2>{t("contact.title")}</h2>
-          <p className="contact-subtitle">
-            {t("contact.subtitle")}
-          </p>
-        </div>
+          <div className="contact-header">
+              <h2>
+                  {t("contact.title").split(" ")[0]} <span>{t("contact.title").split(" ")[1] || ""}</span>
+              </h2>
+              <p className="contact-subtitle">
+                  {t("contact.subtitle")}
+              </p>
+          </div>
 
         <form ref={formRef} className="contact-form" onSubmit={handleSubmit} noValidate>
           <label className={fieldClass("name")}>

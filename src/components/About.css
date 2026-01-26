@@ -355,6 +355,14 @@
         max-width: 100%;
         justify-self: stretch;
     }
+
+    .about__actions {
+        justify-content: center;
+    }
+
+    .about__social {
+        justify-content: center;
+    }
 }
 
 @media (max-width: 560px) {
