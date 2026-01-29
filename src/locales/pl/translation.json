@@ -169,27 +169,27 @@
     },
     "projects": {
       "smartQuoteAI": {
-        "title": "SmartQuote AI - inteligentny kreator ofert i umów",
+        "title": "SmartQuote AI – Inteligentny asystent sprzedaży",
         "subtitle": "System CRM z asystentem AI do zarządzania sprzedażą",
-        "description": "Aplikacja webowa do zarządzania ofertami, umowami i relacjami z klientami. Wbudowany asystent AI (Google Gemini) pomaga tworzyć oferty, analizować klientów i generować profesjonalne emaile. System zawiera kreator ofert z kalkulacją VAT, generowanie PDF, follow‑upy z powiadomieniami oraz dashboard ze statystykami. Obecnie w fazie testowania, wprowadzania poprawek i usprawnień.",
+        "description": "Aplikacja webowa CRM wspierana przez Google Gemini, która automatyzuje tworzenie ofert, umów i analizę klientów. System posiada generator PDF z kalkulacją VAT, automatyczne follow-upy oraz dashboard statystyk. Obecnie w fazie testów i optymalizacji.\n\nWkrótce w SmartQuote AI:\n• Interaktywne oferty: Dynamiczne formaty webowe zamiast statycznych PDF-ów.\n• Integracja z KSeF Master: Automatyczne wystawianie faktur po akceptacji oferty.\n• Rozszerzone AI: Jeszcze głębsza analiza danych i wsparcie w negocjacjach.\n• Wersja mobilna: Aplikacja PWA do zarządzania sprzedażą z telefonu.",
         "tech": ["Next.js", "TypeScript", "Express.js", "PostgreSQL", "Prisma", "Google Gemini AI", "Tailwind CSS", "REST API", "RWD"]
       },
       "postlio": {
         "title": "Inteligentny Asystent Social Media",
         "subtitle": "Twórz, planuj i publikuj posty na FB, IG i LinkedIn z pomocą AI",
-        "description": "Postlio to nowoczesna aplikacja PWA wspomagająca zarządzanie mediami społecznościowymi. Pozwala na tworzenie i planowanie postów oraz grafik przy wsparciu, w zależności od potrzeb różnego typu Agentów AI. System umożliwia pełną automatyzację publikacji zgodnie z harmonogramem dla kont firmowych (Facebook Pages, Instagram Business oraz LinkedIn). W przypadku profili osobistych, ze względu na regulaminy platform, aplikacja służy do profesjonalnego przygotowania treści do samodzielnego udostępnienia.\n\nProjekt jest obecnie wdrożony w celach testowych. Pracuję nad ulepszaniem funkcji oraz usprawnianiem działania aplikacji, aby zapewnić najwyższą jakość obsługi.",
+        "description": "Postlio to nowoczesna aplikacja PWA wspomagająca zarządzanie mediami społecznościowymi. Pozwala na tworzenie i planowanie postów oraz grafik przy wsparciu, w zależności od potrzeb różnego typu Agentów AI. System umożliwia pełną automatyzację publikacji zgodnie z harmonogramem dla kont firmowych (Facebook Pages, Instagram Business oraz LinkedIn). W przypadku profili osobistych, ze względu na regulaminy platform, aplikacja służy do profesjonalnego przygotowania treści do samodzielnego udostępnienia.\n\nProjekt jest obecnie wdrożony w celach testowych. Skupiam się na ulepszaniu UX oraz finalizacji procesu zatwierdzania aplikacji przez Meta. Po uzyskaniu pełnego dostępu do API, użytkownicy będą mogli udostępniać swoje materiały bezpośrednio z poziomu aplikacji.",
         "tech": ["Next.js", "TypeScript", "TailwindCSS", "PWA", "PostgreSQL", "Python", "Netlify", "Render"]
       },
       "mobiSalon": {
-        "title": "Mobi Salon - strona one‑page z CMS",
+        "title": "Wizytówka groomerska z CMS",
         "subtitle": "Witryna dla salonu groomerskiego",
-        "description": "Lekka, przejrzysta strona one‑page pełniąca rolę wizytówki i centrum komunikacji z klientami. Zintegrowałem panel administracyjny (Decap CMS), który umożliwia właścicielowi samodzielne publikowanie wpisów w sekcji Aktualności oraz zaznaczanie terminów dostępności. Projekt wykonany w Next.js/React.",
+        "description": "To lekka i przejrzysta witryna typu one-page, zaprojektowana w technologii Next.js/React. Projekt łączy estetyczną prezentację salonu groomerskiego z funkcjonalnością ułatwiającą codzienną komunikację z klientami. Strona jest w pełni responsywna, co gwarantuje jej nienaganne działanie i czytelność na smartfonach oraz tabletach.\n\nSercem zarządzania stroną jest sekcja Aktualności, nad którą właściciel ma pełną kontrolę z poziomu panelu CMS (Decap CMS). Może on tam błyskawicznie publikować:\n• Bieżące komunikaty: ważne informacje o promocjach, zmianach w ofercie czy ogłoszenia dla klientów.\n• Kalendarz dostępności: interaktywne zestawienie, w którym administrator zaznacza dni pracy i wolne terminy, informując klientów o aktualnym grafiku salonu w czasie rzeczywistym.",
         "tech": ["Next.js", "React", "Decap CMS", "SCSS", "RWD", "Netlify"]
       },
       "ksefMaster": {
-        "title": "KSeF Master - narzędzie dla księgowości",
+        "title": "KSeF Master: Inteligentna ewolucja e-fakturowania",
         "subtitle": "Integracja z KSeF: pobieranie i wystawianie faktur",
-        "description": "KSeF Master to profesjonalna aplikacja przeglądarkowa, która kompleksowo wspiera zarządzanie Krajowym Systemem E-Faktur. Umożliwia sprawne tworzenie i wysyłanie faktur do KSeF, a także ich odbieranie. System efektywnie zarządza bazą klientów i dodatkowo generuje faktury w formacie PDF zgodnym z oficjalnym schematem. Opracowany przeze mnie backend został zbudowany specjalnie w celu obsługi i przetwarzania złożonego API KSeF, zapewniając stabilną i niezawodną komunikację z systemem.",
+        "description": "KSeF Master to zaawansowane narzędzie oparte na autorskim, stabilnym backendzie, który gwarantuje niezawodną komunikację z API KSeF. Obecnie dostępna w przeglądarce, platforma wkrótce zyska wersję Windows w trybie offline-first, zapewniając ciągłość pracy nawet bez dostępu do sieci.\n\nCo wyróżnia system:\n• Bezpieczeństwo przede wszystkim: Automatyczne wykrywanie podejrzanych faktur dzięki analizie zaawansowanych parametrów.\n• Pełna zgodność: Szybkie generowanie PDF-ów oraz obsługa bazy klientów zgodnie z oficjalnymi standardami.\n• Nadchodzące usprawnienia: Wprowadzenie logowania certyfikatem kwalifikowanym oraz dedykowanego modułu autoryzacji użytkowników w wersji webowej.",
         "tech": ["React", "JavaScript", "REST API", "KSeF", "Netlify", "C# .NET", "Render", "Vite"]
       },
       "pwaCookbook": {

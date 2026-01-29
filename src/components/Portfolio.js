@@ -183,7 +183,14 @@ const Portfolio = () => {
                                         </div>
                                     </header>
 
-                                    <p className="project-description" itemProp="description">{project.description}</p>
+                                    <p className="project-description" itemProp="description">
+                                        {project.description.split('\n').map((line, i) => (
+                                            <React.Fragment key={i}>
+                                                {line}
+                                                {i < project.description.split('\n').length - 1 && <br />}
+                                            </React.Fragment>
+                                        ))}
+                                    </p>
 
                                     <div className="project-tech-stack" aria-label={t('portfolio.tech.aria', { defaultValue: 'Technologie' })}>
                                         {project.technologies?.map((tech) => (
