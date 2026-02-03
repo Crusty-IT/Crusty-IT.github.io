@@ -10,16 +10,14 @@ const AVATAR = "https://raw.githubusercontent.com/shellupski/Moja-strona/main/im
 const ROLES_PL = [
     "Specjalista IT",
     "SysAdmin",
-    "Junior DevOps (w drodze)",
-    "Web Developer (React/PWA)",
+    "Software Developer",
     "Administrator Baz Danych",
 ];
 
 const ROLES_EN = [
     "IT Specialist",
     "SysAdmin",
-    "Junior DevOps (in progress)",
-    "Web Developer (React/PWA)",
+    "Software Developer",
     "Database Administrator",
 ];
 
