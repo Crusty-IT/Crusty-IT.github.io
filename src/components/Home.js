@@ -93,11 +93,6 @@ export default function Home() {
         btn.style.setProperty("--y", `${y}px`);
     };
 
-    const scrollToId = (id) => {
-        const el = document.getElementById(id);
-        if (el) el.scrollIntoView({ behavior: "smooth", block: "start" });
-    };
-
     const CV_FILE_PL = 'CV_PL_public.pdf';
     const CV_FILE_EN = 'CV_ANG_public.pdf';
     const CV_FILE = isEN ? CV_FILE_EN : CV_FILE_PL;

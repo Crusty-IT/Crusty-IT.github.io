@@ -11,7 +11,7 @@ import cookbookThumbnail from './assets/mobile_cook.jpg';
 import animalsThumbnail from './assets/one_page_animals.jpg';
 
 const Portfolio = () => {
-    const { t, i18n } = useTranslation();
+    const { t } = useTranslation();
 
     const [isLoading, setIsLoading] = useState(true);
 
@@ -100,7 +100,7 @@ const Portfolio = () => {
             year: '2018',
             caseStudyLink: t('portfolio.projects.animalsOnePage.case', { defaultValue: '' }) || null,
         }
-    ]), [t, i18n.language]);
+    ]), [t]);
 
     return (
         <div className="portfolio-container" id="portfolio">
@@ -112,7 +112,7 @@ const Portfolio = () => {
                         <Trans
                             i18nKey="portfolio.subtitleHtml"
                             components={{
-                                link: <a href="https://github.com/shellupski" target="_blank" rel="noopener noreferrer" />
+                                link: <a href="https://github.com/shellupski" target="_blank" rel="noopener noreferrer" aria-label="GitHub" />
                             }}
                         />
                     </p>
