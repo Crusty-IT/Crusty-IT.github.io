@@ -159,7 +159,7 @@ export default function Contact() {
 
         <div className="direct-email-container">
           <p>{t("contact.or")}</p>
-          <a href="mailto:crusty.it.office@gmail.com">crusty.it.office@gmail.com</a>
+          <a href="mailto:crispy.it.office@gmail.com">crispy.it.office@gmail.com</a>
         </div>
       </div>
     </section>

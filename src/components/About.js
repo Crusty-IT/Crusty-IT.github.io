@@ -129,10 +129,10 @@ const About = () => {
                         </div>
 
                         <div className="about__social">
-                            <a href="mailto:crusty.it.office@gmail.com" aria-label={t("about.social.emailAria")} target="_blank" rel="noopener noreferrer">
+                            <a href="mailto:crispy.it.office@gmail.com" aria-label={t("about.social.emailAria")} target="_blank" rel="noopener noreferrer">
                                 <FaEnvelope />
                             </a>
-                            <a href="https://github.com/Crusty-IT" aria-label={t("about.social.githubAria")} target="_blank" rel="noopener noreferrer">
+                            <a href="https://github.com/crispy-IT" aria-label={t("about.social.githubAria")} target="_blank" rel="noopener noreferrer">
                                 <FaGithub />
                             </a>
                             <a

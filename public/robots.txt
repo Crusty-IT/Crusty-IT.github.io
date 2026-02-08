@@ -16,4 +16,4 @@ Disallow: /*?*fbclid=
 Disallow: /*?*gclid=
 
 # Mapa witryny
-Sitemap: https://crusty-it.github.io/sitemap.xml
+Sitemap: https://crispy-it.github.io/sitemap.xml

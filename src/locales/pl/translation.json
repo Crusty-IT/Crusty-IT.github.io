@@ -8,7 +8,7 @@
     "contact": "Kontakt"
   },
   "home": {
-    "eyebrow": "Crusty IT",
+    "eyebrow": "Crispy IT",
     "greeting": "Cześć, nazywam się",
     "name": "Tomasz Skorupski",
     "lead": "Łączę wiedzę o infrastrukturze (administracja, sieci) z pasją do programowania. Aktualnie tworzę skuteczne rozwiązania biznesowe i aktywnie poszukuję długoterminowej współpracy.",
@@ -36,7 +36,7 @@
     "altText": "Logo"
   },
   "about": {
-    "title": "Crusty IT",
+    "title": "Crispy IT",
     "kicker": "Infrastruktura • Automatyzacja • Development",
     "p1": "Cześć! Tu Tomasz Skorupski. Przez lata dbałem o to, by systemy informatyczne działały bezawaryjnie – administrując serwerami (Windows/Linux), sieciami i bazami danych. Zrozumiałem jednak, że chcę nie tylko naprawiać, utrzymywać i zmieniać, ale przede wszystkim tworzyć. Dziś wykorzystuję to solidne, techniczne zaplecze do budowania i usprawniania rozwiązań.",
     "approachTitle": "Moje Podejście: Praktyczna Wszechstronność",
@@ -66,18 +66,18 @@
       "languagesValue": "Angielski B2, Niemiecki A1",
       "educationTitle": "Wykształcenie",
       "educationValue": "Zachodniopomorska Szkoła Biznesu - Informatyka - Aplikacje Mobilne",
-      "educationUrl": "https://raw.githubusercontent.com/Crusty-IT/Crusty-IT.github.io/main/public/certs/school.pdf",
+      "educationUrl": "https://raw.githubusercontent.com/Crispy-IT/Crispy-IT.github.io/main/public/certs/school.pdf",
       "certsTitle": "Certyfikaty",
       "cert1Name": "PHP Developer (Strefa Kursów, 2025)",
-      "cert1Url": "https://raw.githubusercontent.com/Crusty-IT/Crusty-IT.github.io/main/public/certs/cert1.pdf",
+      "cert1Url": "https://raw.githubusercontent.com/Crispy-IT/Crispy-IT.github.io/main/public/certs/cert1.pdf",
       "cert2Name": "GitHub Copilot (Coders Lab, 2025)",
-      "cert2Url":"https://raw.githubusercontent.com/Crusty-IT/Crusty-IT.github.io/main/public/certs/cert2.pdf",
+      "cert2Url":"https://raw.githubusercontent.com/Crispy-IT/Crispy-IT.github.io/main/public/certs/cert2.pdf",
       "cert3Name": "Podstawy sztucznej inteligencji (Navoica, 2025)",
-      "cert3Url":"https://raw.githubusercontent.com/Crusty-IT/Crusty-IT.github.io/main/public/certs/cert3.pdf",
+      "cert3Url":"https://raw.githubusercontent.com/Crispy-IT/Crispy-IT.github.io/main/public/certs/cert3.pdf",
       "cert4Name": "Zastosowanie UML obszarze informacji geograficznej (Navoica, 2026)",
-      "cert4Url":"https://raw.githubusercontent.com/Crusty-IT/Crusty-IT.github.io/main/public/certs/cert5.pdf",
+      "cert4Url":"https://raw.githubusercontent.com/Crispy-IT/Crispy-IT.github.io/main/public/certs/cert5.pdf",
       "cert5Name": "Python - Programming (Navoica, 2026)",
-      "cert5Url": "https://raw.githubusercontent.com/Crusty-IT/Crusty-IT.github.io/main/public/certs/cert7.pdf"
+      "cert5Url": "https://raw.githubusercontent.com/Crispy-IT/Crispy-IT.github.io/main/public/certs/cert7.pdf"
     },
     "techTitle": "Technologie, które lubię i używam",
     "techChips": {
