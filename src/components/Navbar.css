@@ -2,7 +2,7 @@
     --header-offset: 16px;
     --header-pad-x: clamp(16px, 4vw, 48px);
     --nav-radius: 14px;
-    --logo-size: clamp(80px, 12vw, 140px);
+    --logo-height: clamp(44px, 5vw, 60px);
     --color-bg: #0d1520;
     --nav-bg: rgba(25, 40, 60, 0.9);
     --nav-border: rgba(255, 255, 255, 0.15);
@@ -53,15 +53,23 @@
     transform: scale(1.03);
 }
 
-.header-logo img {
-    height: var(--logo-size);
+.header-logo .logo-container {
+    height: var(--logo-height);
+    width: auto;
+    display: block;
+    cursor: pointer;
+}
+
+.header-logo .logo-container svg {
+    height: 100%;
     width: auto;
     display: block;
     filter: drop-shadow(0 2px 8px rgba(0, 0, 0, 0.3)) brightness(1.05);
-    transition: height var(--transition-base), filter var(--transition-base);
+    transition: filter var(--transition-base);
+    overflow: visible;
 }
 
-.header-logo a:hover img {
+.header-logo a:hover .logo-container svg {
     filter: drop-shadow(0 4px 20px rgba(12, 192, 255, 0.25)) brightness(1.08);
 }
 
@@ -182,13 +190,13 @@ body {
 
 @media (max-width: 1200px) {
     :root {
-        --logo-size: clamp(70px, 10vw, 120px);
+        --logo-height: clamp(40px, 4.5vw, 55px);
     }
 }
 
 @media (max-width: 960px) {
     :root {
-        --logo-size: clamp(60px, 12vw, 100px);
+        --logo-height: clamp(36px, 5vw, 48px);
     }
 
     .main-nav ul {
@@ -204,7 +212,7 @@ body {
 @media (max-width: 768px) {
     :root {
         --header-offset: 12px;
-        --logo-size: clamp(55px, 14vw, 90px);
+        --logo-height: clamp(32px, 6vw, 44px);
     }
 
     body {
@@ -249,7 +257,7 @@ body {
 
 @media (max-width: 480px) {
     :root {
-        --logo-size: clamp(50px, 16vw, 75px);
+        --logo-height: clamp(60px, 8vw, 100px)
     }
 
     body {

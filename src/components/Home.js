@@ -1,11 +1,9 @@
-
 import React, { useEffect, useState } from "react";
 import "./Home.css";
 import { HashLink } from 'react-router-hash-link';
 import { useTranslation } from "react-i18next";
-
-
-const AVATAR = "https://raw.githubusercontent.com/shellupski/Moja-strona/main/images/logo_vertical.png";
+import LogoSVG from "./assets/logo_vertical";
+// ← usunięto nieużywaną stałą AVATAR (PNG zastąpione przez LogoSVG)
 
 const ROLES_PL = [
     "Specjalista IT",
@@ -136,8 +134,8 @@ export default function Home() {
                     <div className="hero__eyebrow">{t("home.eyebrow")}</div>
 
                     <h1 className="hero__title">
-                        {t("home.greeting")}
-                        <span className="gradient-text"> {t("home.name")}</span>
+                        {t("home.greeting")}<br />
+                        <span className="gradient-text">{t("home.name")}</span>
                     </h1>
 
                     <h2 className="hero__subtitle">
@@ -239,19 +237,14 @@ export default function Home() {
                 <div className="hero-visual">
                     <div className="visual-orb" aria-hidden="true" />
                     <div className="visual-card glass">
-                        {AVATAR ? (
-                            <img className="avatar" src={AVATAR} alt="Avatar" />
-                        ) : (
-                            <div className="avatar placeholder">TS</div>
-                        )}
+                        <LogoSVG />
                         <div className="visual-caption">
                             {t("home.caption")}
                         </div>
                     </div>
                 </div>
+
             </div>
-            
-            
         </section>
     );
 }
