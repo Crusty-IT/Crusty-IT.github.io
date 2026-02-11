@@ -16,4 +16,4 @@ Disallow: /*?*fbclid=
 Disallow: /*?*gclid=
 
 # Mapa witryny
-Sitemap: https://shellty.github.io/sitemap.xml
+Sitemap: https://shellty-it.github.io/sitemap.xml
