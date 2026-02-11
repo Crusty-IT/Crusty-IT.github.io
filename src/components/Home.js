@@ -202,7 +202,7 @@ export default function Home() {
                     <div className="quick-contact">
                         <a
                             className="chip"
-                            href="mailto:crispy.it.office@gmail.com"
+                            href="mailto:shellty@zohomail.eu"
                             aria-label={t("home.contact.emailAria")}
                         >
                             <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true">
@@ -211,7 +211,7 @@ export default function Home() {
                                     d="M20 4H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2Zm0 4.236-6.928 4.334a2 2 0 0 1-2.144 0L4 8.236V6l8 5 8-5v2.236Z"
                                 />
                             </svg>
-                            <span>crispy.it.office@gmail.com</span>
+                            <span>shellty@zohomail.eu</span>
                         </a>
 
                         <a
