@@ -72,6 +72,17 @@ const About = () => {
         );
     };
 
+    const renderTitle = () => {
+        const title = t("about.title");
+        const idx = title.indexOf("Shellty");
+        if (idx === -1) return title;
+        return (
+            <>
+                {title.slice(0, idx)}Shell<span>ty</span>{title.slice(idx + 7)}
+            </>
+        );
+    };
+
     return (
         <section id="about" className="about">
             <span className="about__blob about__blob--a"></span>
@@ -80,7 +91,7 @@ const About = () => {
             <div className="about__container">
                 <header className="about__header animate-fade-in">
                     <h2 className="about__title">
-                        {t("about.title").split(" ")[0]} <span>{t("about.title").split(" ")[1] || ""}</span>
+                        {renderTitle()}
                     </h2>
                     <p className="about__kicker">
                         {t("about.kicker")}
@@ -132,7 +143,7 @@ const About = () => {
                             <a href="mailto:crispy.it.office@gmail.com" aria-label={t("about.social.emailAria")} target="_blank" rel="noopener noreferrer">
                                 <FaEnvelope />
                             </a>
-                            <a href="https://github.com/crispy-IT" aria-label={t("about.social.githubAria")} target="_blank" rel="noopener noreferrer">
+                            <a href="https://github.com/shellty-IT" aria-label={t("about.social.githubAria")} target="_blank" rel="noopener noreferrer">
                                 <FaGithub />
                             </a>
                             <a

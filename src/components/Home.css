@@ -437,20 +437,15 @@
     animation: neon-pulse 0.5s ease-in-out infinite;
 }
 
-.tech-glow-nodes path {
-    transition: fill 0.4s ease, filter 0.5s ease;
+.node-holes circle {
+    pointer-events: none;
+    transition: filter 0.5s ease;
     filter: drop-shadow(0 0 0px #00eaff);
 }
 
-.logo-container:hover .tech-glow-nodes path {
-    fill: #ffffff;
+.logo-container:hover .node-holes circle {
     filter:
-            drop-shadow(0 0 8px #00eaff)
-            drop-shadow(0 0 22px #00eaff)
-            drop-shadow(0 0 40px rgba(0, 234, 255, 0.7));
-}
-
-.node-holes circle {
-    pointer-events: none;
-    transition: none;
+            drop-shadow(0 0 10px #00eaff)
+            drop-shadow(0 0 24px #00eaff)
+            drop-shadow(0 0 50px rgba(0, 234, 255, 0.8));
 }

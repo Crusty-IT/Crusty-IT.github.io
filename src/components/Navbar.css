@@ -2,7 +2,7 @@
     --header-offset: 16px;
     --header-pad-x: clamp(16px, 4vw, 48px);
     --nav-radius: 14px;
-    --logo-height: clamp(44px, 5vw, 60px);
+    --logo-height: clamp(48px, 6vw, 78px);
     --color-bg: #0d1520;
     --nav-bg: rgba(25, 40, 60, 0.9);
     --nav-border: rgba(255, 255, 255, 0.15);
@@ -25,7 +25,7 @@
 
 .main-header {
     position: fixed;
-    top: var(--header-offset);
+    top: 0;
     left: 0;
     right: 0;
     padding: 0 var(--header-pad-x);
@@ -39,6 +39,7 @@
 .header-logo {
     flex-shrink: 0;
     position: relative;
+    align-self: flex-start;
 }
 
 .header-logo a {
@@ -46,6 +47,7 @@
     align-items: center;
     text-decoration: none;
     transition: transform var(--transition-base);
+    margin-top: 8px;
 }
 
 .header-logo a:hover,
@@ -190,13 +192,31 @@ body {
 
 @media (max-width: 1200px) {
     :root {
-        --logo-height: clamp(40px, 4.5vw, 55px);
+        --logo-height: clamp(40px, 5vw, 58px);
+    }
+
+    body {
+        padding-top: 60px;
+    }
+
+    .header-logo a {
+        margin-top: 4px;
+    }
+
+    .main-nav {
+        width: 92vw;
+        padding: 6px 12px;
+    }
+
+    .main-nav a {
+        font-size: clamp(0.75rem, 3.2vw, 0.85rem);
+        padding: 4px 6px;
     }
 }
 
 @media (max-width: 960px) {
     :root {
-        --logo-height: clamp(36px, 5vw, 48px);
+        --logo-height: clamp(36px, 5vw, 50px);
     }
 
     .main-nav ul {
@@ -211,7 +231,6 @@ body {
 
 @media (max-width: 768px) {
     :root {
-        --header-offset: 12px;
         --logo-height: clamp(32px, 6vw, 44px);
     }
 
@@ -221,6 +240,10 @@ body {
 
     .main-header {
         gap: 10px;
+    }
+
+    .header-logo a {
+        margin-top: 6px;
     }
 
     .main-nav {
@@ -252,25 +275,5 @@ body {
     .main-nav a {
         font-size: clamp(0.78rem, 3vw, 0.88rem);
         padding: 5px 7px;
-    }
-}
-
-@media (max-width: 480px) {
-    :root {
-        --logo-height: clamp(60px, 8vw, 100px)
-    }
-
-    body {
-        padding-top: 60px;
-    }
-
-    .main-nav {
-        width: 92vw;
-        padding: 6px 12px;
-    }
-
-    .main-nav a {
-        font-size: clamp(0.75rem, 3.2vw, 0.85rem);
-        padding: 4px 6px;
     }
 }

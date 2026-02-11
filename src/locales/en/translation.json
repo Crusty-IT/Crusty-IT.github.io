@@ -8,7 +8,6 @@
     "contact": "Contact"
   },
   "home": {
-    "eyebrow": "Crispy IT",
     "greeting": "Hi! My name is",
     "name": "Tomasz Skorupski",
     "lead": "I combine knowledge of infrastructure (administration, networks) with a passion for programming. I am currently creating effective business solutions and actively seeking long-term collaboration.",
@@ -36,7 +35,7 @@
     "altText": "Logo"
   },
   "about": {
-    "title": "Crispy IT",
+    "title": "Shellty",
     "kicker": "Infrastructure • Automation • Development",
     "p1": "Hi! My name is <strong>Tomasz Skorupski</strong>. For years I ensured systems ran reliably — administering servers (Windows/Linux), networks and databases. I realized I don’t want to just fix, maintain and change, but above all <strong>create</strong>. Today I use that solid technical foundation to build and improve solutions.",
     "approachTitle": "My Approach: Practical Versatility",
@@ -66,18 +65,18 @@
       "languagesValue": "English B2, German A1",
       "educationTitle": "Education",
       "educationValue": "The West Pomeranian Business School - IT - Mobile Applications",
-      "educationUrl": "https://raw.githubusercontent.com/Crispy-IT/Crispy-IT.github.io/main/public/certs/school.pdf",
+      "educationUrl": "https://raw.githubusercontent.com/Shellty-IT/Shellty-IT.github.io/main/public/certs/school.pdf",
       "certsTitle": "Certificates",
       "cert1Name": "PHP Developer (Strefa Kursów, 2025)",
-      "cert1Url": "https://raw.githubusercontent.com/Crispy-IT/Crispy-IT.github.io/main/public/certs/cert1.pdf",
+      "cert1Url": "https://raw.githubusercontent.com/Shellty-IT/Shellty-IT.github.io/main/public/certs/cert1.pdf",
       "cert2Name": "GitHub Copilot (Coders Lab, 2025)",
-      "cert2Url":"https://raw.githubusercontent.com/Crispy-IT/Crispy-IT.github.io/main/public/certs/cert2.pdf",
+      "cert2Url":"https://raw.githubusercontent.com/Shellty-IT/Shellty-IT.github.io/main/public/certs/cert2.pdf",
       "cert3Name": "Basics of artificial intelligence (Navoica, 2025)",
-      "cert3Url":"https://raw.githubusercontent.com/Crispy-IT/Crispy-IT.github.io/main/public/certs/cert4.pdf",
+      "cert3Url":"https://raw.githubusercontent.com/Shellty-IT/Shellty-IT.github.io/main/public/certs/cert4.pdf",
       "cert4Name": "Use of UML in the field of geographic information (Navoica, 2026)",
-      "cert4Url":"https://raw.githubusercontent.com/Crispy-IT/Crispy-IT.github.io/main/public/certs/cert6.pdf",
+      "cert4Url":"https://raw.githubusercontent.com/Shellty-IT/Shellty-IT.github.io/main/public/certs/cert6.pdf",
       "cert5Name": "Python - Programming (Navoica, 2026)",
-      "cert5Url": "https://raw.githubusercontent.com/Crispy-IT/Crispy-IT.github.io/main/public/certs/cert8.pdf"
+      "cert5Url": "https://raw.githubusercontent.com/Shellty-IT/Shellty-IT.github.io/main/public/certs/cert8.pdf"
     },
     "techTitle": "Technologies I like and use",
     "techChips": {

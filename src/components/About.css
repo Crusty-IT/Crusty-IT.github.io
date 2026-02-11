@@ -27,10 +27,7 @@
 }
 
 .about__title span {
-    background: linear-gradient(135deg, #0cc0ff, #0062b0);
-    -webkit-background-clip: text;
-    background-clip: text;
-    color: transparent;
+    color: #226EEB;
 }
 
 .about__kicker {

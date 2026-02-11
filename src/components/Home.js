@@ -3,7 +3,6 @@ import "./Home.css";
 import { HashLink } from 'react-router-hash-link';
 import { useTranslation } from "react-i18next";
 import LogoSVG from "./assets/logo_vertical";
-// ← usunięto nieużywaną stałą AVATAR (PNG zastąpione przez LogoSVG)
 
 const ROLES_PL = [
     "Specjalista IT",
@@ -131,7 +130,6 @@ export default function Home() {
 
             <div className="home__inner">
                 <div className="hero glass">
-                    <div className="hero__eyebrow">{t("home.eyebrow")}</div>
 
                     <h1 className="hero__title">
                         {t("home.greeting")}<br />
@@ -218,7 +216,7 @@ export default function Home() {
 
                         <a
                             className="chip"
-                            href="https://github.com/Crispy-IT"
+                            href="https://github.com/Shellty-IT"
                             target="_blank"
                             rel="noreferrer"
                             aria-label={t("home.contact.githubAria")}
