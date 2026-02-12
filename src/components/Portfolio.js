@@ -5,13 +5,17 @@ import { useTranslation, Trans } from 'react-i18next';
 
 import mobisalonThumbnail from './assets/mobisalon.jpg';
 import ksefThumbnail from './assets/ksef-master.jpg';
+import ksefThumbnailAng from './assets/ksef_master_ang.jpg';
 import smartquoteThumbnail from './assets/smartquote.jpg';
+import smartquoteThumbnailAng from './assets/smart_quoute_ang.jpg';
 import postlioThumbnail from './assets/postlio.jpg';
+import postlioThumbnailAng from './assets/postlio_ang.jpg';
 import cookbookThumbnail from './assets/mobile_cook.jpg';
 import animalsThumbnail from './assets/one_page_animals.jpg';
 
 const Portfolio = () => {
-    const { t } = useTranslation();
+    const { t, i18n } = useTranslation();
+    const currentLanguage = i18n.language;
 
     const [isLoading, setIsLoading] = useState(true);
 
@@ -21,10 +25,9 @@ const Portfolio = () => {
     }, []);
 
     const projects = useMemo(() => ([
-
         {
             id: "postlio",
-            image: postlioThumbnail,
+            image: currentLanguage === 'en' ? postlioThumbnailAng : postlioThumbnail,
             demoLink: 'https://postlio.netlify.app/',
             githubLink: null,
             title: t('portfolio.projects.postlio.title'),
@@ -37,7 +40,7 @@ const Portfolio = () => {
         },
         {
             id: "smartQuoteAI",
-            image: smartquoteThumbnail,
+            image: currentLanguage === 'en' ? smartquoteThumbnailAng : smartquoteThumbnail,
             demoLink: 'https://smartquote-ai.netlify.app',
             githubLink: null,
             title: t('portfolio.projects.smartQuoteAI.title'),
@@ -50,7 +53,7 @@ const Portfolio = () => {
         },
         {
             id: "ksefMaster",
-            image: ksefThumbnail,
+            image: currentLanguage === 'en' ? ksefThumbnailAng : ksefThumbnail,
             demoLink: 'https://ksef-master.netlify.app/',
             githubLink: 'https://github.com/Shellty-IT/KSeF-Master',
             title: t('portfolio.projects.ksefMaster.title'),
@@ -100,7 +103,7 @@ const Portfolio = () => {
             year: '2018',
             caseStudyLink: t('portfolio.projects.animalsOnePage.case', { defaultValue: '' }) || null,
         }
-    ]), [t]);
+    ]), [t, currentLanguage]);
 
     return (
         <div className="portfolio-container" id="portfolio">
