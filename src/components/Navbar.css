@@ -190,60 +190,30 @@ body {
     padding-top: 55px;
 }
 
-@media (max-width: 1200px) {
-    :root {
-        --logo-height: clamp(30px, 4vw, 44px);
-    }
-
-    body {
-        padding-top: 50px;
-    }
-
-    .header-logo a {
-        margin-top: 4px;
-    }
-
-    .main-nav {
-        width: 92vw;
-        padding: 6px 12px;
-    }
-
-    .main-nav a {
-        font-size: clamp(0.75rem, 3.2vw, 0.85rem);
-        padding: 4px 6px;
-    }
-}
-
-@media (max-width: 960px) {
-    :root {
-        --logo-height: clamp(26px, 4vw, 38px);
-    }
-
-    .main-nav ul {
-        gap: 16px;
-    }
-
-    .main-nav a {
-        font-size: 0.85rem;
-        padding: 5px 10px;
-    }
-}
-
 @media (max-width: 768px) {
     :root {
-        --logo-height: clamp(24px, 4.5vw, 32px);
+        --logo-height: clamp(42px, 10vw, 56px);
     }
 
     body {
-        padding-top: 50px;
+        padding-top: 55px;
     }
 
     .main-header {
         gap: 10px;
     }
 
+    .header-logo {
+        transform: translateX(-10px);
+    }
+
     .header-logo a {
         margin-top: 6px;
+    }
+
+    .header-logo a:hover,
+    .header-logo a:focus-visible {
+        transform: translateX(0) scale(1.03);
     }
 
     .main-nav {
