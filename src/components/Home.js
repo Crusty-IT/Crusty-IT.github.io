@@ -90,11 +90,12 @@ export default function Home() {
         btn.style.setProperty("--y", `${y}px`);
     };
 
-    const CV_FILE_PL = 'cv_pl_public.pdf';
-    const CV_FILE_EN = 'cv_ang_public.pdf';
+    const CV_FILE_PL = 'CV_PL_public.pdf';
+    const CV_FILE_EN = 'CV_ANG_public.pdf';
     const CV_FILE = isEN ? CV_FILE_EN : CV_FILE_PL;
-    const GITHUB_CV_RAW = `https://raw.githubusercontent.com/shellupski/Moja-strona/main/public/cv/${CV_FILE}`;
-    const GITHUB_CV_CDN = `https://cdn.jsdelivr.net/gh/shellupski/Moja-strona@main/public/cv/${CV_FILE}`;
+
+    const GITHUB_CV_RAW = `https://raw.githubusercontent.com/Shellty-IT/Shellty-IT.github.io/main/public/cv/${CV_FILE}`;
+    const GITHUB_CV_CDN = `https://cdn.jsdelivr.net/gh/Shellty-IT/Shellty-IT.github.io@main/public/cv/${CV_FILE}`;
 
     const downloadCV = async (e) => {
         e.preventDefault();
